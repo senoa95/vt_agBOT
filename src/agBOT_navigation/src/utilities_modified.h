@@ -1,0 +1,71 @@
+#include <cmath>
+
+const double pi = 3.141592653589793238;
+
+// header file for Pure Pursuit
+struct Point
+{
+double x;
+double y;
+double heading;
+
+public:
+
+Point(double inputX = 0.0, double inputY = 0.0, double inputHeading = 0.0)
+{
+x = inputX;
+y = inputY;
+heading = inputHeading;
+}
+};
+
+class AckermanVehicle
+{
+double length;
+double minTurningRadius;
+double forwardVelocity;
+double steeringAngle;
+double maximumSteeringAngle;
+
+public:
+
+AckermanVehicle(double inputLength = 1.0, double inputMaximumSteeringAngle = 45*pi/180, double inputMaximumVelocity = 2)
+{
+  length = inputLength;
+  maximumSteeringAngle = inputMaximumSteeringAngle;
+  minTurningRadius = length / tan(maximumSteeringAngle);
+};
+
+class PPController
+{
+double leadDistance;
+Point current;
+Point goal;
+
+public:
+PPController(double inputLeadDistance = 0.0)
+{
+  leadDistance = inputLeadDistance;
+
+}
+double compute_turning_radius(double inputCurrentHeading = currentHeading, Point inputCurrent = Point(0.0,0.0,0.0), Point inputGoal = Point(0.0,0.0,0.0))
+{
+  current = inputCurrent;
+  goal = inputGoal;
+  double beta = atan2((end.y - start.y),(end.x-end.y)); //angle between line joining start-end and x axis
+  double alpha = current.heading - beta; //angle between current heading and the line joining start-end
+  double euclideanDistance = sqrt(pow((end.x - start.x),2) + pow((end.y-start.y),2));
+  double turningRadius = euclideanDistance / (2*sin(alpha));
+  return turningRadius; //this outputs the turning radius
+}
+
+void compute_steering_angle(turningRadius)
+{
+  steeringAngle = atan(length / turningRadius);
+}
+double compute_forward_velocity(steeringAngle)  //added a variable velocity based on Bijo's suig
+{
+  forwardVelocity = inputMaximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));
+  return forward_velocity;  //this specifies the forward velocity at a given steering angle
+}
+};

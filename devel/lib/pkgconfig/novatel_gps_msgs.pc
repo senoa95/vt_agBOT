@@ -1,0 +1,8 @@
+prefix=/home/senoa95/vt_agBOT/devel
+
+Name: novatel_gps_msgs
+Description: Description of novatel_gps_msgs
+Version: 3.4.0
+Cflags: -I/home/senoa95/vt_agBOT/devel/include
+Libs: -L/home/senoa95/vt_agBOT/devel/lib 
+Requires: message_runtime std_msgs

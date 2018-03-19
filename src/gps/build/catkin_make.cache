@@ -1,0 +1,2 @@
+novatel_gps_driver/novatel_gps_driver:novatel_gps_driver/novatel_gps_msgs
+-DCATKIN_DEVEL_PREFIX=/home/senoa95/gps/devel -DCMAKE_INSTALL_PREFIX=/home/senoa95/gps/install -G Unix Makefiles
