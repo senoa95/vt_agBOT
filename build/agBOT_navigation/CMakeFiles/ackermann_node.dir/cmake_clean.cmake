@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o"
-  "/home/senoa95/vt_agBOT/devel/lib/agBOT_navigation/ackermann_node.pdb"
-  "/home/senoa95/vt_agBOT/devel/lib/agBOT_navigation/ackermann_node"
+  "/home/savio/Documents/vt_agBOT/devel/lib/agBOT_navigation/ackermann_node.pdb"
+  "/home/savio/Documents/vt_agBOT/devel/lib/agBOT_navigation/ackermann_node"
 )
 
 # Per-language clean rules from dependency scanning.

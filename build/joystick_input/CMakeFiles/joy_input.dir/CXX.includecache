@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/senoa95/vt_agBOT/src/joystick_input/src/joy_input.cpp
+/home/savio/Documents/vt_agBOT/src/joystick_input/src/joy_input.cpp
 ros/ros.h
 -
 stdio.h
@@ -37,20 +37,18 @@ actionlib/client/simple_action_client.h
 /opt/ros/kinetic/include/actionlib/action_definition.h
 
 /opt/ros/kinetic/include/actionlib/client/action_client.h
+boost/thread/condition.hpp
+-
+ros/ros.h
+/opt/ros/kinetic/include/actionlib/client/ros/ros.h
+ros/callback_queue_interface.h
+/opt/ros/kinetic/include/actionlib/client/ros/callback_queue_interface.h
 actionlib/client/client_helpers.h
 -
 actionlib/client/connection_monitor.h
 -
 actionlib/destruction_guard.h
 -
-boost/thread/condition.hpp
--
-string
--
-ros/ros.h
-/opt/ros/kinetic/include/actionlib/client/ros/ros.h
-ros/callback_queue_interface.h
-/opt/ros/kinetic/include/actionlib/client/ros/callback_queue_interface.h
 
 /opt/ros/kinetic/include/actionlib/client/client_goal_handle_imp.h
 
@@ -62,8 +60,6 @@ boost/interprocess/sync/scoped_lock.hpp
 boost/shared_ptr.hpp
 -
 boost/weak_ptr.hpp
--
-vector
 -
 actionlib/action_definition.h
 /opt/ros/kinetic/include/actionlib/client/actionlib/action_definition.h
@@ -97,25 +93,21 @@ ros/console.h
 /opt/ros/kinetic/include/actionlib/client/ros/console.h
 
 /opt/ros/kinetic/include/actionlib/client/comm_state_machine_imp.h
-vector
--
 
 /opt/ros/kinetic/include/actionlib/client/connection_monitor.h
-ros/ros.h
--
-actionlib_msgs/GoalStatusArray.h
--
-actionlib/decl.h
--
 boost/thread/condition.hpp
 -
 boost/thread/recursive_mutex.hpp
 -
+ros/ros.h
+-
+actionlib_msgs/GoalStatusArray.h
+-
 set
 -
-string
--
 map
+-
+actionlib/decl.h
 -
 
 /opt/ros/kinetic/include/actionlib/client/goal_manager_imp.h
@@ -128,8 +120,6 @@ boost/thread/mutex.hpp
 boost/scoped_ptr.hpp
 -
 boost/concept_check.hpp
--
-string
 -
 ros/ros.h
 /opt/ros/kinetic/include/actionlib/client/ros/ros.h
@@ -145,8 +135,6 @@ actionlib/client/terminal_state.h
 /opt/ros/kinetic/include/actionlib/client/actionlib/client/terminal_state.h
 
 /opt/ros/kinetic/include/actionlib/client/simple_client_goal_state.h
-string
--
 
 /opt/ros/kinetic/include/actionlib/client/simple_goal_state.h
 string
@@ -155,8 +143,6 @@ ros/console.h
 /opt/ros/kinetic/include/actionlib/client/ros/console.h
 
 /opt/ros/kinetic/include/actionlib/client/terminal_state.h
-string
--
 
 /opt/ros/kinetic/include/actionlib/decl.h
 ros/macros.h
@@ -173,8 +159,6 @@ boost/shared_ptr.hpp
 -
 
 /opt/ros/kinetic/include/actionlib/goal_id_generator.h
-actionlib/decl.h
--
 sstream
 -
 string
@@ -183,10 +167,12 @@ ros/time.h
 /opt/ros/kinetic/include/actionlib/ros/time.h
 actionlib_msgs/GoalID.h
 /opt/ros/kinetic/include/actionlib/actionlib_msgs/GoalID.h
+actionlib/decl.h
+-
 
 /opt/ros/kinetic/include/actionlib/managed_list.h
-actionlib/destruction_guard.h
--
+ros/console.h
+/opt/ros/kinetic/include/actionlib/ros/console.h
 boost/thread.hpp
 -
 boost/shared_ptr.hpp
@@ -195,8 +181,8 @@ boost/weak_ptr.hpp
 -
 list
 -
-ros/console.h
-/opt/ros/kinetic/include/actionlib/ros/console.h
+actionlib/destruction_guard.h
+-
 
 /opt/ros/kinetic/include/actionlib_msgs/GoalID.h
 string
@@ -250,66 +236,6 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 actionlib_msgs/GoalStatus.h
--
-
-/opt/ros/kinetic/include/boost_161_condition_variable.h
-boost/thread/detail/platform.hpp
--
-boost/thread/win32/condition_variable.hpp
--
-boost_161_pthread_condition_variable.h
-/opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
-
-/opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
-boost_161_pthread_condition_variable_fwd.h
-/opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h
-boost/thread/pthread/timespec.hpp
--
-boost/thread/pthread/pthread_mutex_scoped_lock.hpp
--
-boost/thread/pthread/thread_data.hpp
--
-boost/chrono/system_clocks.hpp
--
-boost/chrono/ceil.hpp
--
-boost/thread/detail/delete.hpp
--
-boost/config/abi_prefix.hpp
--
-boost/config/abi_suffix.hpp
--
-
-/opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h
-boost/assert.hpp
--
-boost/throw_exception.hpp
--
-pthread.h
--
-boost/thread/cv_status.hpp
--
-boost/thread/mutex.hpp
--
-boost/thread/lock_types.hpp
--
-boost/thread/thread_time.hpp
--
-boost/thread/pthread/timespec.hpp
--
-boost/thread/xtime.hpp
--
-boost/chrono/system_clocks.hpp
--
-boost/chrono/ceil.hpp
--
-boost/thread/detail/delete.hpp
--
-boost/date_time/posix_time/posix_time_duration.hpp
--
-boost/config/abi_prefix.hpp
--
-boost/config/abi_suffix.hpp
 -
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
@@ -597,14 +523,6 @@ ros/time.h
 /opt/ros/kinetic/include/ros/ros/time.h
 
 /opt/ros/kinetic/include/ros/callback_queue.h
-boost/version.hpp
--
-boost_161_condition_variable.h
-/opt/ros/kinetic/include/ros/boost_161_condition_variable.h
-boost/thread/condition_variable.hpp
--
-boost/thread/condition_variable.hpp
--
 ros/callback_queue_interface.h
 /opt/ros/kinetic/include/ros/ros/callback_queue_interface.h
 ros/time.h
@@ -616,6 +534,8 @@ boost/shared_ptr.hpp
 boost/thread/mutex.hpp
 -
 boost/thread/shared_mutex.hpp
+-
+boost/thread/condition_variable.hpp
 -
 boost/thread/tss.hpp
 -
@@ -845,8 +765,6 @@ ros/rate.h
 /opt/ros/kinetic/include/ros/ros/rate.h
 ros/wall_timer.h
 /opt/ros/kinetic/include/ros/ros/wall_timer.h
-ros/steady_timer.h
-/opt/ros/kinetic/include/ros/ros/steady_timer.h
 ros/advertise_options.h
 /opt/ros/kinetic/include/ros/ros/advertise_options.h
 ros/advertise_service_options.h
@@ -1099,20 +1017,6 @@ boost/shared_ptr.hpp
 /opt/ros/kinetic/include/ros/static_assert.h
 boost/static_assert.hpp
 -
-
-/opt/ros/kinetic/include/ros/steady_timer.h
-common.h
-/opt/ros/kinetic/include/ros/common.h
-forwards.h
-/opt/ros/kinetic/include/ros/forwards.h
-steady_timer_options.h
-/opt/ros/kinetic/include/ros/steady_timer_options.h
-
-/opt/ros/kinetic/include/ros/steady_timer_options.h
-common.h
-/opt/ros/kinetic/include/ros/common.h
-ros/forwards.h
-/opt/ros/kinetic/include/ros/ros/forwards.h
 
 /opt/ros/kinetic/include/ros/subscribe_options.h
 ros/forwards.h

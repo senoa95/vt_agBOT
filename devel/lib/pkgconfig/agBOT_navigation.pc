@@ -1,8 +1,8 @@
-prefix=/home/senoa95/vt_agBOT/devel
+prefix=/home/savio/Documents/vt_agBOT/devel
 
 Name: agBOT_navigation
 Description: Description of agBOT_navigation
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/senoa95/vt_agBOT/devel/lib 
-Requires: roscpp rospy std_msgs message_runtime
+Libs: -L/home/savio/Documents/vt_agBOT/devel/lib 
+Requires: 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/joy_input.dir/src/joy_input.cpp.o"
-  "/home/senoa95/vt_agBOT/devel/lib/joy_input/joy_input.pdb"
-  "/home/senoa95/vt_agBOT/devel/lib/joy_input/joy_input"
+  "/home/savio/Documents/vt_agBOT/devel/lib/libjoy_input.pdb"
+  "/home/savio/Documents/vt_agBOT/devel/lib/libjoy_input.so"
 )
 
 # Per-language clean rules from dependency scanning.

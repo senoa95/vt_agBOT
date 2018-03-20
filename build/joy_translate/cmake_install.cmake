@@ -1,8 +1,8 @@
-# Install script for directory: /home/senoa95/vt_agBOT/src/joy_translate
+# Install script for directory: /home/savio/Documents/vt_agBOT/src/joy_translate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/senoa95/vt_agBOT/install")
+  set(CMAKE_INSTALL_PREFIX "/home/savio/Documents/vt_agBOT/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/senoa95/vt_agBOT/build/joy_translate/catkin_generated/safe_execute_install.cmake")
+  include("/home/savio/Documents/vt_agBOT/build/joy_translate/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/senoa95/vt_agBOT/build/joy_translate/catkin_generated/installspace/joy_translate.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/savio/Documents/vt_agBOT/build/joy_translate/catkin_generated/installspace/joy_translate.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_translate/cmake" TYPE FILE FILES
-    "/home/senoa95/vt_agBOT/build/joy_translate/catkin_generated/installspace/joy_translateConfig.cmake"
-    "/home/senoa95/vt_agBOT/build/joy_translate/catkin_generated/installspace/joy_translateConfig-version.cmake"
+    "/home/savio/Documents/vt_agBOT/build/joy_translate/catkin_generated/installspace/joy_translateConfig.cmake"
+    "/home/savio/Documents/vt_agBOT/build/joy_translate/catkin_generated/installspace/joy_translateConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_translate" TYPE FILE FILES "/home/senoa95/vt_agBOT/src/joy_translate/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy_translate" TYPE FILE FILES "/home/savio/Documents/vt_agBOT/src/joy_translate/package.xml")
 endif()
 

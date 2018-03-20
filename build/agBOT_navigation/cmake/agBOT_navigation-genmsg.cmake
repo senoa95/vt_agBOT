@@ -4,7 +4,7 @@ message(WARNING "Invoking generate_messages() without having added any message o
 You should either add add_message_files() and/or add_service_files() calls or remove the invocation of generate_messages().")
 message(STATUS "agBOT_navigation: 0 messages, 0 services")
 
-set(MSG_I_FLAGS "-IagBOT_navigation:/home/senoa95/vt_agBOT/src/agBOT_navigation/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Ijoy_input:/home/senoa95/vt_agBOT/src/joystick_input/msg")
+set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -160,9 +160,6 @@ endif()
 if(TARGET std_msgs_generate_messages_cpp)
   add_dependencies(agBOT_navigation_generate_messages_cpp std_msgs_generate_messages_cpp)
 endif()
-if(TARGET joy_input_generate_messages_cpp)
-  add_dependencies(agBOT_navigation_generate_messages_cpp joy_input_generate_messages_cpp)
-endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agBOT_navigation)
   # install generated code
@@ -173,9 +170,6 @@ if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ag
 endif()
 if(TARGET std_msgs_generate_messages_eus)
   add_dependencies(agBOT_navigation_generate_messages_eus std_msgs_generate_messages_eus)
-endif()
-if(TARGET joy_input_generate_messages_eus)
-  add_dependencies(agBOT_navigation_generate_messages_eus joy_input_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agBOT_navigation)
@@ -188,9 +182,6 @@ endif()
 if(TARGET std_msgs_generate_messages_lisp)
   add_dependencies(agBOT_navigation_generate_messages_lisp std_msgs_generate_messages_lisp)
 endif()
-if(TARGET joy_input_generate_messages_lisp)
-  add_dependencies(agBOT_navigation_generate_messages_lisp joy_input_generate_messages_lisp)
-endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agBOT_navigation)
   # install generated code
@@ -201,9 +192,6 @@ if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_D
 endif()
 if(TARGET std_msgs_generate_messages_nodejs)
   add_dependencies(agBOT_navigation_generate_messages_nodejs std_msgs_generate_messages_nodejs)
-endif()
-if(TARGET joy_input_generate_messages_nodejs)
-  add_dependencies(agBOT_navigation_generate_messages_nodejs joy_input_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agBOT_navigation)
@@ -216,7 +204,4 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agBO
 endif()
 if(TARGET std_msgs_generate_messages_py)
   add_dependencies(agBOT_navigation_generate_messages_py std_msgs_generate_messages_py)
-endif()
-if(TARGET joy_input_generate_messages_py)
-  add_dependencies(agBOT_navigation_generate_messages_py joy_input_generate_messages_py)
 endif()

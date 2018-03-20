@@ -1,8 +1,8 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "joy_input: 2 messages, 0 services")
+message(STATUS "joy_input: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ijoy_input:/home/senoa95/vt_agBOT/src/joystick_input/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ijoy_input:/home/savio/Documents/vt_agBOT/src/joystick_input/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Imove_base_msgs:/opt/ros/kinetic/share/move_base_msgs/cmake/../msg;-Iactionlib:/opt/ros/kinetic/share/actionlib/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,14 +17,9 @@ add_custom_target(joy_input_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
+get_filename_component(_filename "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
 add_custom_target(_joy_input_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "joy_input" "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" ""
-)
-
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg" NAME_WE)
-add_custom_target(_joy_input_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "joy_input" "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "joy_input" "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" ""
 )
 
 #
@@ -34,13 +29,7 @@ add_custom_target(_joy_input_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/joy_input
-)
-_generate_msg_cpp(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg"
+  "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/joy_input
@@ -60,9 +49,7 @@ add_custom_target(joy_input_generate_messages_cpp
 add_dependencies(joy_input_generate_messages joy_input_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
-add_dependencies(joy_input_generate_messages_cpp _joy_input_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg" NAME_WE)
+get_filename_component(_filename "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
 add_dependencies(joy_input_generate_messages_cpp _joy_input_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -75,13 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS joy_input_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/joy_input
-)
-_generate_msg_eus(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg"
+  "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/joy_input
@@ -101,9 +82,7 @@ add_custom_target(joy_input_generate_messages_eus
 add_dependencies(joy_input_generate_messages joy_input_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
-add_dependencies(joy_input_generate_messages_eus _joy_input_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg" NAME_WE)
+get_filename_component(_filename "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
 add_dependencies(joy_input_generate_messages_eus _joy_input_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,13 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS joy_input_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/joy_input
-)
-_generate_msg_lisp(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg"
+  "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/joy_input
@@ -142,9 +115,7 @@ add_custom_target(joy_input_generate_messages_lisp
 add_dependencies(joy_input_generate_messages joy_input_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
-add_dependencies(joy_input_generate_messages_lisp _joy_input_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg" NAME_WE)
+get_filename_component(_filename "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
 add_dependencies(joy_input_generate_messages_lisp _joy_input_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -157,13 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS joy_input_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/joy_input
-)
-_generate_msg_nodejs(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg"
+  "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/joy_input
@@ -183,9 +148,7 @@ add_custom_target(joy_input_generate_messages_nodejs
 add_dependencies(joy_input_generate_messages joy_input_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
-add_dependencies(joy_input_generate_messages_nodejs _joy_input_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg" NAME_WE)
+get_filename_component(_filename "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
 add_dependencies(joy_input_generate_messages_nodejs _joy_input_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -198,13 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS joy_input_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/joy_input
-)
-_generate_msg_py(joy_input
-  "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg"
+  "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/joy_input
@@ -224,9 +181,7 @@ add_custom_target(joy_input_generate_messages_py
 add_dependencies(joy_input_generate_messages joy_input_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
-add_dependencies(joy_input_generate_messages_py _joy_input_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg" NAME_WE)
+get_filename_component(_filename "/home/savio/Documents/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg" NAME_WE)
 add_dependencies(joy_input_generate_messages_py _joy_input_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -248,6 +203,12 @@ endif()
 if(TARGET std_msgs_generate_messages_cpp)
   add_dependencies(joy_input_generate_messages_cpp std_msgs_generate_messages_cpp)
 endif()
+if(TARGET move_base_msgs_generate_messages_cpp)
+  add_dependencies(joy_input_generate_messages_cpp move_base_msgs_generate_messages_cpp)
+endif()
+if(TARGET actionlib_generate_messages_cpp)
+  add_dependencies(joy_input_generate_messages_cpp actionlib_generate_messages_cpp)
+endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/joy_input)
   # install generated code
@@ -258,6 +219,12 @@ if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jo
 endif()
 if(TARGET std_msgs_generate_messages_eus)
   add_dependencies(joy_input_generate_messages_eus std_msgs_generate_messages_eus)
+endif()
+if(TARGET move_base_msgs_generate_messages_eus)
+  add_dependencies(joy_input_generate_messages_eus move_base_msgs_generate_messages_eus)
+endif()
+if(TARGET actionlib_generate_messages_eus)
+  add_dependencies(joy_input_generate_messages_eus actionlib_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/joy_input)
@@ -270,6 +237,12 @@ endif()
 if(TARGET std_msgs_generate_messages_lisp)
   add_dependencies(joy_input_generate_messages_lisp std_msgs_generate_messages_lisp)
 endif()
+if(TARGET move_base_msgs_generate_messages_lisp)
+  add_dependencies(joy_input_generate_messages_lisp move_base_msgs_generate_messages_lisp)
+endif()
+if(TARGET actionlib_generate_messages_lisp)
+  add_dependencies(joy_input_generate_messages_lisp actionlib_generate_messages_lisp)
+endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/joy_input)
   # install generated code
@@ -280,6 +253,12 @@ if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_D
 endif()
 if(TARGET std_msgs_generate_messages_nodejs)
   add_dependencies(joy_input_generate_messages_nodejs std_msgs_generate_messages_nodejs)
+endif()
+if(TARGET move_base_msgs_generate_messages_nodejs)
+  add_dependencies(joy_input_generate_messages_nodejs move_base_msgs_generate_messages_nodejs)
+endif()
+if(TARGET actionlib_generate_messages_nodejs)
+  add_dependencies(joy_input_generate_messages_nodejs actionlib_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/joy_input)
@@ -292,4 +271,10 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/joy_
 endif()
 if(TARGET std_msgs_generate_messages_py)
   add_dependencies(joy_input_generate_messages_py std_msgs_generate_messages_py)
+endif()
+if(TARGET move_base_msgs_generate_messages_py)
+  add_dependencies(joy_input_generate_messages_py move_base_msgs_generate_messages_py)
+endif()
+if(TARGET actionlib_generate_messages_py)
+  add_dependencies(joy_input_generate_messages_py actionlib_generate_messages_py)
 endif()

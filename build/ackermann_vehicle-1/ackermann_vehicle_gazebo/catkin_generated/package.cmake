@@ -10,7 +10,4 @@ set(ackermann_vehicle_gazebo_EXEC_DEPENDS "ackermann_msgs" "ackermann_vehicle_de
 set(ackermann_vehicle_gazebo_RUN_DEPENDS "ackermann_msgs" "ackermann_vehicle_description" "controller_manager" "controller_manager_msgs" "effort_controllers" "gazebo_ros" "joint_state_controller" "rospy" "std_msgs" "tf")
 set(ackermann_vehicle_gazebo_TEST_DEPENDS )
 set(ackermann_vehicle_gazebo_DOC_DEPENDS )
-set(ackermann_vehicle_gazebo_URL_WEBSITE "http://wiki.ros.org/ackermann_vehicle_gazebo")
-set(ackermann_vehicle_gazebo_URL_BUGTRACKER "https://github.com/wunderkammer-laboratory/ackermann_vehicle/issues")
-set(ackermann_vehicle_gazebo_URL_REPOSITORY "https://github.com/wunderkammer-laboratory/ackermann_vehicle.git")
 set(ackermann_vehicle_gazebo_DEPRECATED "")

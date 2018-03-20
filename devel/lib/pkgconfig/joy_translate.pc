@@ -1,8 +1,8 @@
-prefix=/home/senoa95/vt_agBOT/devel
+prefix=/home/savio/Documents/vt_agBOT/devel
 
 Name: joy_translate
 Description: Description of joy_translate
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/senoa95/vt_agBOT/devel/lib 
+Libs: -L/home/savio/Documents/vt_agBOT/devel/lib 
 Requires: 

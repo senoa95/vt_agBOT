@@ -1,8 +1,0 @@
-prefix=/home/senoa95/vt_agBOT/install
-
-Name: hector_gazebo_plugins
-Description: Description of hector_gazebo_plugins
-Version: 0.5.0
-Cflags: -I/home/senoa95/vt_agBOT/install/include
-Libs: -L/home/senoa95/vt_agBOT/install/lib 
-Requires: roscpp std_msgs geometry_msgs nav_msgs tf message_runtime

@@ -1,10 +1,10 @@
 
 "use strict";
 
-let latlon = require('./latlon.js');
 let AckermannDrive = require('./AckermannDrive.js');
+let latlon = require('./latlon.js');
 
 module.exports = {
-  latlon: latlon,
   AckermannDrive: AckermannDrive,
+  latlon: latlon,
 };

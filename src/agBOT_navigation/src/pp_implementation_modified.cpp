@@ -4,7 +4,7 @@ using namespace std;
 #include <sstream>
 #include "utilities_modified.h"
 // #include "joystick_input"
-#include "joystick_input/msg/AckermannDrive.msg"
+#include <joy_input/AckermannDrive.h>
 
 
 int main(int argc, char **argv)
@@ -22,8 +22,8 @@ int main(int argc, char **argv)
 
   ros::NodeHandle ppcontroller;
 
-  ros::Publisher adPub = ppcontroller.advertise<AckermannDrive>("/ackermann_cmd", 1000, true);
-  ros::publishedr velocity_pub = ppcontroller.advertise<std_msgs::Float64("/forwardVelocity",1000,true);
+  ros::Publisher adPub = ppcontroller.advertise<joy_input::AckermannDrive>("/ackermann_cmd", 1000, true);
+  ros::Publisher velocity_pub = ppcontroller.advertise<std_msgs::float64>("/forwardVelocity",1000, true);
 
   ros::Rate loop_rate(10);
 

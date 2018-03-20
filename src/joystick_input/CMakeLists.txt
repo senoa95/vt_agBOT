@@ -48,11 +48,11 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
+ add_message_files(
+   FILES
+   AckermannDrive.msg
 #   Message2.msg
-#)
+)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -69,7 +69,7 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-#generate_messages( DEPENDENCIES std_msgs move_base_msgs actionlib)
+generate_messages( DEPENDENCIES std_msgs move_base_msgs actionlib)
 
 ###################################
 ## catkin specific configuration ##
@@ -97,12 +97,12 @@ catkin_package(
 include_directories(${catkin_INCLUDE_DIRS})
 
 ## Declare a cpp library
-# add_library(joy_input
-#   src/${PROJECT_NAME}/joy_input.cpp
-# )
+add_library(joy_input
+   src/joy_input.cpp
+ )
 
 ## Declare a cpp executable
-add_executable(joy_input src/joy_input.cpp)
+#add_executable(joy_input src/joy_input.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
