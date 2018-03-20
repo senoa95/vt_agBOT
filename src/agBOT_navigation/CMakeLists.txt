@@ -13,9 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   message_generation
-)
-
-#find_package(joystick_input REQUIRED)
+  actionlib_msgs
+  ackermann_msgs)
 
 ## System dependencies are found with CMake's conventions
 #find_package(joystick_input Boost REQUIRED COMPONENTS system)
@@ -51,9 +50,8 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-add_message_files(
+add_message_files(DIRECTORY msg
    FILES
-   AckermannDrive.msg
 #   Message2.msg
 )
 
@@ -75,6 +73,7 @@ add_message_files(
 generate_messages(
    DEPENDENCIES
    std_msgs
+   joy_input
  )
 
 ################################################

@@ -603,6 +603,9 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for ackermann_msgs.
+ackermann_msgs_DIR:PATH=/opt/ros/kinetic/share/ackermann_msgs/cmake
+
 //Value Computed by CMake
 ackermann_vehicle_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle
 

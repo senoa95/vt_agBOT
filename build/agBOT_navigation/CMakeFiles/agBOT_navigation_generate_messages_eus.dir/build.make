@@ -53,21 +53,14 @@ CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
 # Include the progress variables for this target.
 include agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_eus.dir/progress.make
 
-agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/msg/AckermannDrive.l
 agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/manifest.l
 
 
-/home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/msg/AckermannDrive.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/msg/AckermannDrive.l: /home/senoa95/vt_agBOT/src/agBOT_navigation/msg/AckermannDrive.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from agBOT_navigation/AckermannDrive.msg"
-	cd /home/senoa95/vt_agBOT/build/agBOT_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/senoa95/vt_agBOT/src/agBOT_navigation/msg/AckermannDrive.msg -IagBOT_navigation:/home/senoa95/vt_agBOT/src/agBOT_navigation/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agBOT_navigation -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/msg
-
 /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for agBOT_navigation"
-	cd /home/senoa95/vt_agBOT/build/agBOT_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation agBOT_navigation std_msgs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for agBOT_navigation"
+	cd /home/senoa95/vt_agBOT/build/agBOT_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation agBOT_navigation std_msgs joy_input
 
 agBOT_navigation_generate_messages_eus: agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_eus
-agBOT_navigation_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/msg/AckermannDrive.l
 agBOT_navigation_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/manifest.l
 agBOT_navigation_generate_messages_eus: agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_eus.dir/build.make
 

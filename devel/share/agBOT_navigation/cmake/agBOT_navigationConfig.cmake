@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(agBOT_navigation_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/senoa95/vt_agBOT/devel/include " STREQUAL " ")
+if(NOT " " STREQUAL " ")
   set(agBOT_navigation_INCLUDE_DIRS "")
-  set(_include_dirs "/home/senoa95/vt_agBOT/devel/include")
+  set(_include_dirs "")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")

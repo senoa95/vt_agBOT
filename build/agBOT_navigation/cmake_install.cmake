@@ -33,10 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agBOT_navigation/msg" TYPE FILE FILES "/home/senoa95/vt_agBOT/src/agBOT_navigation/msg/AckermannDrive.msg")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agBOT_navigation/cmake" TYPE FILE FILES "/home/senoa95/vt_agBOT/build/agBOT_navigation/catkin_generated/installspace/agBOT_navigation-msg-paths.cmake")
 endif()
 

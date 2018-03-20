@@ -66,29 +66,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -99,17 +76,6 @@ test:
 test/fast: test
 
 .PHONY : test/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -122,6 +88,17 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -132,6 +109,29 @@ install/strip: preinstall
 install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,21 +166,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 joystick_input/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule:
 	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
 .PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
@@ -196,19 +181,19 @@ move_base_msgs_generate_messages_cpp/fast:
 .PHONY : move_base_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-joystick_input/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : joystick_input/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-actionlib_msgs_generate_messages_lisp: joystick_input/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+geometry_msgs_generate_messages_py: joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
-.PHONY : actionlib_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_py
 
 # fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make joystick_input/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
+geometry_msgs_generate_messages_py/fast:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make joystick_input/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
@@ -226,19 +211,19 @@ geometry_msgs_generate_messages_cpp/fast:
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-joystick_input/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-.PHONY : joystick_input/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
+.PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-actionlib_msgs_generate_messages_eus: joystick_input/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+move_base_msgs_generate_messages_py: joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
 
-.PHONY : actionlib_msgs_generate_messages_eus
+.PHONY : move_base_msgs_generate_messages_py
 
 # fast build rule for target.
-actionlib_msgs_generate_messages_eus/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make joystick_input/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-.PHONY : actionlib_msgs_generate_messages_eus/fast
+move_base_msgs_generate_messages_py/fast:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+.PHONY : move_base_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule:
@@ -286,34 +271,34 @@ actionlib_generate_messages_lisp/fast:
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
-joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-.PHONY : joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
+.PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-actionlib_generate_messages_nodejs: joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+move_base_msgs_generate_messages_nodejs: joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
 
-.PHONY : actionlib_generate_messages_nodejs
+.PHONY : move_base_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
+move_base_msgs_generate_messages_nodejs/fast:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
+.PHONY : move_base_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-joystick_input/CMakeFiles/joy_input.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/joy_input.dir/rule
-.PHONY : joystick_input/CMakeFiles/joy_input.dir/rule
+joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+.PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-joy_input: joystick_input/CMakeFiles/joy_input.dir/rule
+geometry_msgs_generate_messages_eus: joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
-.PHONY : joy_input
+.PHONY : geometry_msgs_generate_messages_eus
 
 # fast build rule for target.
-joy_input/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/joy_input.dir/build.make joystick_input/CMakeFiles/joy_input.dir/build
-.PHONY : joy_input/fast
+geometry_msgs_generate_messages_eus/fast:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 joystick_input/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule:
@@ -329,21 +314,6 @@ move_base_msgs_generate_messages_eus: joystick_input/CMakeFiles/move_base_msgs_g
 move_base_msgs_generate_messages_eus/fast:
 	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make joystick_input/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
 .PHONY : move_base_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-joystick_input/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-.PHONY : joystick_input/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_nodejs: joystick_input/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make joystick_input/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-.PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 joystick_input/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
@@ -376,6 +346,36 @@ geometry_msgs_generate_messages_lisp/fast:
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
+joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+.PHONY : joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_nodejs: joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make joystick_input/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
+
+# Convenience name for target.
+joystick_input/CMakeFiles/joy_input.dir/rule:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/joy_input.dir/rule
+.PHONY : joystick_input/CMakeFiles/joy_input.dir/rule
+
+# Convenience name for target.
+joy_input: joystick_input/CMakeFiles/joy_input.dir/rule
+
+.PHONY : joy_input
+
+# fast build rule for target.
+joy_input/fast:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/joy_input.dir/build.make joystick_input/CMakeFiles/joy_input.dir/build
+.PHONY : joy_input/fast
+
+# Convenience name for target.
 joystick_input/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
@@ -404,81 +404,6 @@ actionlib_generate_messages_py: joystick_input/CMakeFiles/actionlib_generate_mes
 actionlib_generate_messages_py/fast:
 	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_generate_messages_py.dir/build.make joystick_input/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
-
-# Convenience name for target.
-joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-.PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_py: joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-
-.PHONY : move_base_msgs_generate_messages_py
-
-# fast build rule for target.
-move_base_msgs_generate_messages_py/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make joystick_input/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
-.PHONY : move_base_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-joystick_input/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : joystick_input/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: joystick_input/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make joystick_input/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
-.PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_nodejs: joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : move_base_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-move_base_msgs_generate_messages_nodejs/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make joystick_input/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
-.PHONY : move_base_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make joystick_input/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-joystick_input/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_input/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : joystick_input/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: joystick_input/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f joystick_input/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make joystick_input/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
 
 src/joy_input.o: src/joy_input.cpp.o
 
@@ -514,33 +439,28 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... list_install_components"
-	@echo "... install"
-	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... install/local"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... move_base_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_eus"
+	@echo "... move_base_msgs_generate_messages_py"
 	@echo "... move_base_msgs_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"
-	@echo "... rebuild_cache"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... joy_input"
-	@echo "... move_base_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_nodejs"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... actionlib_generate_messages_py"
-	@echo "... move_base_msgs_generate_messages_py"
-	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... move_base_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... move_base_msgs_generate_messages_eus"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... joy_input"
+	@echo "... rebuild_cache"
+	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... actionlib_generate_messages_py"
+	@echo "... edit_cache"
 	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
 	@echo "... src/joy_input.o"
 	@echo "... src/joy_input.i"
 	@echo "... src/joy_input.s"
