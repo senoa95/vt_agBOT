@@ -3,6 +3,6 @@ prefix=/home/senoa95/vt_agBOT/install
 Name: agBOT_navigation
 Description: Description of agBOT_navigation
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/senoa95/vt_agBOT/install/include
 Libs: -L/home/senoa95/vt_agBOT/install/lib 
-Requires: 
+Requires: roscpp rospy std_msgs message_runtime

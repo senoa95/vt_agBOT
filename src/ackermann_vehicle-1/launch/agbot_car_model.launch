@@ -1,0 +1,11 @@
+<launch>
+	<include file="$(find joy_input)/launch/joystick.launch"/>
+	<include file="$(find ackermann_vehicle_gazebo)/launch/ackermann_vehicle.launch"/>
+	
+	<node pkg="joy_translate" type="joy_translate.py" name="cmd_vel">
+  	</node>
+
+	<node pkg="gps_imu_translate" type="gps_imu_trans.py" name="fix">
+  	</node>
+
+</launch>

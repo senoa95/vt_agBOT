@@ -1,4 +1,5 @@
 # Hashes of file build rules.
+ba775f693cbe9f43a304db7d6aa77c23 /home/senoa95/vt_agBOT/devel/include/agBOT_navigation/AckermannDrive.h
 9a300624690a425ddc757a8479f30fcc /home/senoa95/vt_agBOT/devel/include/hector_gazebo_plugins/GNSSConfig.h
 ec61bb9bc19c3c0399d374789ca4d192 /home/senoa95/vt_agBOT/devel/include/hector_gazebo_plugins/SensorModelConfig.h
 1f04d3c032a062681558074ba78aad85 /home/senoa95/vt_agBOT/devel/include/hector_gazebo_plugins/SetBias.h
@@ -25,6 +26,8 @@ aa68e56fa29bbf068146e7eec08bdc69 /home/senoa95/vt_agBOT/devel/include/novatel_gp
 5e43a17ca79004f81210f0af98b3a25d /home/senoa95/vt_agBOT/devel/include/novatel_gps_msgs/Time.h
 dbdcf952fd11892f3321e497846ad556 /home/senoa95/vt_agBOT/devel/include/novatel_gps_msgs/Trackstat.h
 67414f881813ccfeabea62434f533a60 /home/senoa95/vt_agBOT/devel/include/novatel_gps_msgs/TrackstatChannel.h
+4c06d8dff9d3aa8c27ff0ee12e5648a6 /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/agBOT_navigation/msg/_AckermannDrive.py
+1d4dcc652ee353d2eaff594f1c7d2ac4 /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/agBOT_navigation/msg/__init__.py
 ce464db671aac90f3c5d104c6c95a130 /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py
 7cf13ba5d0da0110dc66aa6ae9d6975c /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py
 7894c2ba431438102c402660bf216960 /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py
@@ -53,6 +56,7 @@ c99f99de53952a7c0b07aa5b11acba2a /home/senoa95/vt_agBOT/devel/lib/python2.7/dist
 250d1bab3b6e08f94377a251f1cc7cfb /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/novatel_gps_msgs/msg/__init__.py
 19c266038501e25f6bc18cdc01923cc5 /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/novatel_gps_msgs/srv/_NovatelFRESET.py
 7367d2fb4c45912a2f15c580b1567cff /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/novatel_gps_msgs/srv/__init__.py
+11b93115a97c52a6c153e4e7978280b1 /home/senoa95/vt_agBOT/devel/share/common-lisp/ros/agBOT_navigation/msg/AckermannDrive.lisp
 284ebb73e3fd0296ae58956f284dbbec /home/senoa95/vt_agBOT/devel/share/common-lisp/ros/hector_gazebo_plugins/srv/SetBias.lisp
 054e130d4218c57b861f9f14d12cefc0 /home/senoa95/vt_agBOT/devel/share/common-lisp/ros/joy_input/msg/AckermannDrive.lisp
 0e4320ae0e3b2e458231653c7c6428ee /home/senoa95/vt_agBOT/devel/share/common-lisp/ros/joy_input/msg/latlon.lisp
@@ -77,6 +81,7 @@ f61bc90a67a3b2b26e28e84c14d2ea81 /home/senoa95/vt_agBOT/devel/share/common-lisp/
 1bc55e2d151cbc5cd2bfa76c85b9e6f3 /home/senoa95/vt_agBOT/devel/share/common-lisp/ros/novatel_gps_msgs/msg/Trackstat.lisp
 7cc8e62d75f8ce88f0eb25af1e222665 /home/senoa95/vt_agBOT/devel/share/common-lisp/ros/novatel_gps_msgs/msg/TrackstatChannel.lisp
 92ce3b28a55dcc162a3a2c44262137e0 /home/senoa95/vt_agBOT/devel/share/common-lisp/ros/novatel_gps_msgs/srv/NovatelFRESET.lisp
+3ac28b54322551678080ba13665a8328 /home/senoa95/vt_agBOT/devel/share/gennodejs/ros/agBOT_navigation/msg/AckermannDrive.js
 5a06044cc4b22ac655a6dbfdd388652d /home/senoa95/vt_agBOT/devel/share/gennodejs/ros/hector_gazebo_plugins/srv/SetBias.js
 0d67110df1079f2f0da17b88e1ba8ed4 /home/senoa95/vt_agBOT/devel/share/gennodejs/ros/joy_input/msg/AckermannDrive.js
 21d7ffc95fb3d09806522e8f9b968c7f /home/senoa95/vt_agBOT/devel/share/gennodejs/ros/joy_input/msg/latlon.js
@@ -101,6 +106,8 @@ df62b1ab2aca800074f4f2832475557a /home/senoa95/vt_agBOT/devel/share/gennodejs/ro
 888df586d1c17cfe2e2a70892659b883 /home/senoa95/vt_agBOT/devel/share/gennodejs/ros/novatel_gps_msgs/msg/Trackstat.js
 190feb23a19dbcc3778cffe768a6695b /home/senoa95/vt_agBOT/devel/share/gennodejs/ros/novatel_gps_msgs/msg/TrackstatChannel.js
 08e547515d5a662f42c9031f12ec6d7d /home/senoa95/vt_agBOT/devel/share/gennodejs/ros/novatel_gps_msgs/srv/NovatelFRESET.js
+2c619ccf96198507a0e8acb743879ed0 /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/manifest.l
+274d6ca75072cf3f7fd34be03160e0a6 /home/senoa95/vt_agBOT/devel/share/roseus/ros/agBOT_navigation/msg/AckermannDrive.l
 1153b1d0e532490acc96cab4fbb58eb9 /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l
 222cca53bf1b178e6114bdd3f8185a48 /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l
 6a32a6a2f8f73cf7f0559613f1124cb4 /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/manifest.l
@@ -129,6 +136,12 @@ a3c3c80c7e90f0118fc88a3d25c237c2 /home/senoa95/vt_agBOT/devel/share/roseus/ros/n
 f1121bcee8ef7b292ba6a6a207cbcbf2 /home/senoa95/vt_agBOT/devel/share/roseus/ros/novatel_gps_msgs/msg/TrackstatChannel.l
 ffc693d0f7b6cbb3f14a0e871925bd1c /home/senoa95/vt_agBOT/devel/share/roseus/ros/novatel_gps_msgs/srv/NovatelFRESET.l
 d9f16f8264a69d635950c62d356731f2 CMakeFiles/clean_test_results
+483b9e145301f386c4c41ca17d081c28 agBOT_navigation/CMakeFiles/_agBOT_navigation_generate_messages_check_deps_AckermannDrive
+c1bc81a788a3531bdc6d621daf260011 agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_cpp
+c1bc81a788a3531bdc6d621daf260011 agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_eus
+c1bc81a788a3531bdc6d621daf260011 agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_lisp
+c1bc81a788a3531bdc6d621daf260011 agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_nodejs
+c1bc81a788a3531bdc6d621daf260011 agBOT_navigation/CMakeFiles/agBOT_navigation_generate_messages_py
 634a927ef817c5eaa72542e1c2347c18 gps/src/novatel_gps_driver/novatel_gps_driver/CMakeFiles/_run_tests_novatel_gps_driver_gtest_parser_tests
 c4fe026edbd5f629ec8eabe7bc6b47a3 gps/src/novatel_gps_driver/novatel_gps_driver/CMakeFiles/_run_tests_novatel_gps_driver_rostest_test_novatel_gps_tests.test
 cfe0bf95e4e88c5d644bfadb2339d443 gps/src/novatel_gps_driver/novatel_gps_driver/CMakeFiles/clean_test_results_novatel_gps_driver
@@ -167,10 +180,3 @@ fc5cbcfd393d82de9be734befb61de8a hector_gazebo/hector_gazebo_plugins/CMakeFiles/
 fc5cbcfd393d82de9be734befb61de8a hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp
 fc5cbcfd393d82de9be734befb61de8a hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs
 fc5cbcfd393d82de9be734befb61de8a hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py
-4c53af5471d5e0629b55ce0766d46294 joystick_input/CMakeFiles/_joy_input_generate_messages_check_deps_AckermannDrive
-8146ebe1ff79dc1ae7367f0d14ecdd82 joystick_input/CMakeFiles/_joy_input_generate_messages_check_deps_latlon
-03a75d7fa0638dfc265c487a2edb36be joystick_input/CMakeFiles/joy_input_generate_messages_cpp
-03a75d7fa0638dfc265c487a2edb36be joystick_input/CMakeFiles/joy_input_generate_messages_eus
-03a75d7fa0638dfc265c487a2edb36be joystick_input/CMakeFiles/joy_input_generate_messages_lisp
-03a75d7fa0638dfc265c487a2edb36be joystick_input/CMakeFiles/joy_input_generate_messages_nodejs
-03a75d7fa0638dfc265c487a2edb36be joystick_input/CMakeFiles/joy_input_generate_messages_py

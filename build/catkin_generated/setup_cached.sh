@@ -5,6 +5,7 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
+export ROS_VERSION="1"
 
 # modified environment variables
 export PWD="/home/senoa95/vt_agBOT/build"

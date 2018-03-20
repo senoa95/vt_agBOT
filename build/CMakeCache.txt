@@ -267,6 +267,9 @@ EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
 //Empy script
 EMPY_SCRIPT:STRING=/usr/bin/empy
 
+//The directory containing a CMake configuration file for GMock.
+GMock_DIR:PATH=GMock_DIR-NOTFOUND
+
 //Path to a file.
 GTEST_INCLUDE_DIR:PATH=/usr/include
 
@@ -588,6 +591,18 @@ _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 //Path to a file.
 _file_name:FILEPATH=/home/senoa95/vt_agBOT/src/gps/src/novatel_gps_driver/novatel_gps_driver/test/novatel_gps_tests.test
 
+//Path to a file.
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
+
+//Path to a file.
+_gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
+
+//Path to a file.
+_gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
+
+//Path to a file.
+_gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
+
 //Value Computed by CMake
 ackermann_vehicle_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle
 
@@ -699,6 +714,21 @@ genpy_DIR:PATH=/opt/ros/kinetic/share/genpy/cmake
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
 
+//Value Computed by CMake
+gmock_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/gtest
+
+//Dependencies for the target
+gmock_LIB_DEPENDS:STATIC=general;-lpthread;
+
+//Value Computed by CMake
+gmock_SOURCE_DIR:STATIC=/usr/src/gmock
+
+//Build all of Google Mock's own tests.
+gmock_build_tests:BOOL=OFF
+
+//Dependencies for the target
+gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
+
 //The directory containing a CMake configuration file for gps_common.
 gps_common_DIR:PATH=/opt/ros/kinetic/share/gps_common/cmake
 
@@ -709,7 +739,7 @@ gps_imu_translate_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/gps_imu_transla
 gps_imu_translate_SOURCE_DIR:STATIC=/home/senoa95/vt_agBOT/src/gps_imu_translate
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/gtest
+gtest_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/gtest/gtest
 
 //Dependencies for the target
 gtest_LIB_DEPENDS:STATIC=general;-lpthread;
@@ -790,6 +820,8 @@ image_transport_DIR:PATH=/opt/ros/kinetic/share/image_transport/cmake
 //Value Computed by CMake
 joy_input_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/joystick_input
 
+joy_input_DIR:PATH=
+
 //Value Computed by CMake
 joy_input_SOURCE_DIR:STATIC=/home/senoa95/vt_agBOT/src/joystick_input
 
@@ -803,7 +835,7 @@ joy_translate_SOURCE_DIR:STATIC=/home/senoa95/vt_agBOT/src/joy_translate
 joystick_input_DIR:PATH=joystick_input_DIR-NOTFOUND
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libcamera_calibration_parsers.so
 
 //Path to a library.
 libpcap_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcap.so
@@ -816,6 +848,9 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for move_base_msgs.
+move_base_msgs_DIR:PATH=/opt/ros/kinetic/share/move_base_msgs/cmake
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
@@ -838,7 +873,8 @@ novatel_gps_driver_nodelets_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libs
 //Value Computed by CMake
 novatel_gps_msgs_BINARY_DIR:STATIC=/home/senoa95/vt_agBOT/build/gps/src/novatel_gps_driver/novatel_gps_msgs
 
-novatel_gps_msgs_DIR:PATH=
+//The directory containing a CMake configuration file for novatel_gps_msgs.
+novatel_gps_msgs_DIR:PATH=/home/senoa95/vt_agBOT/devel/share/novatel_gps_msgs/cmake
 
 //Value Computed by CMake
 novatel_gps_msgs_SOURCE_DIR:STATIC=/home/senoa95/vt_agBOT/src/gps/src/novatel_gps_driver/novatel_gps_msgs
@@ -1086,7 +1122,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1133,6 +1169,11 @@ FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpro
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
+GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
+GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/senoa95/vt_agBOT/build/gmock
+GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main
 GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
 GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest

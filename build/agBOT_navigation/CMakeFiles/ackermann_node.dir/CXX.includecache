@@ -7,20 +7,16 @@
 #IncludeRegexTransform: 
 
 /home/senoa95/vt_agBOT/src/agBOT_navigation/src/pp_implementation_modified.cpp
-utilities.h
-/home/senoa95/vt_agBOT/src/agBOT_navigation/src/utilities.h
 iostream
 -
 ros/ros.h
 /home/senoa95/vt_agBOT/src/agBOT_navigation/src/ros/ros.h
 sstream
 -
-joystick_input/msgs/AckermannDrive.msg
--
-utilities.h
-/home/senoa95/vt_agBOT/src/agBOT_navigation/src/utilities.h
+utilities_modified.h
+/home/senoa95/vt_agBOT/src/agBOT_navigation/src/utilities_modified.h
 
-/home/senoa95/vt_agBOT/src/agBOT_navigation/src/utilities.h
+/home/senoa95/vt_agBOT/src/agBOT_navigation/src/utilities_modified.h
 cmath
 -
 

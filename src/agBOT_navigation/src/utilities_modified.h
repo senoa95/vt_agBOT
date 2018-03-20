@@ -1,3 +1,5 @@
+#ifndef UTILITIES_H
+#define UTILITIES_H
 #include <cmath>
 
 const double pi = 3.141592653589793238;
@@ -19,53 +21,62 @@ heading = inputHeading;
 }
 };
 
-class AckermanVehicle
+class AckermannVehicle
 {
-double length;
-double minTurningRadius;
-double forwardVelocity;
-double steeringAngle;
-double maximumSteeringAngle;
-
 public:
 
-AckermanVehicle(double inputLength = 1.0, double inputMaximumSteeringAngle = 45*pi/180, double inputMaximumVelocity = 2)
+double length;
+double minTurningRadius;
+double maximumSteeringAngle;
+double maximumVelocity;
+
+AckermannVehicle(double inputLength = 1.0, double inputMaximumSteeringAngle = 45*pi/180, double inputMaximumVelocity = 2)
 {
   length = inputLength;
   maximumSteeringAngle = inputMaximumSteeringAngle;
+  maximumVelocity = inputMaximumVelocity;
   minTurningRadius = length / tan(maximumSteeringAngle);
+}
 };
 
 class PPController
 {
-double leadDistance;
-Point current;
-Point goal;
-
 public:
+
+  double leadDistance;
+  Point current;
+  Point goal;
+  double turningRadius;
+  double steeringAngle;
+  double forwardVelocity;
+  AckermannVehicle mule = (1, 45*pi/180,2);
+
 PPController(double inputLeadDistance = 0.0)
 {
   leadDistance = inputLeadDistance;
-
+  double length = mule.length;
 }
-double compute_turning_radius(double inputCurrentHeading = currentHeading, Point inputCurrent = Point(0.0,0.0,0.0), Point inputGoal = Point(0.0,0.0,0.0))
+
+void compute_turning_radius(Point inputCurrent = Point(0.0,0.0,0.0), Point inputGoal = Point(0.0,0.0,0.0))
 {
   current = inputCurrent;
   goal = inputGoal;
-  double beta = atan2((end.y - start.y),(end.x-end.y)); //angle between line joining start-end and x axis
+  double beta = atan2((goal.y - current.y),(goal.x-current.y)); //angle between line joining start-end and x axis
   double alpha = current.heading - beta; //angle between current heading and the line joining start-end
-  double euclideanDistance = sqrt(pow((end.x - start.x),2) + pow((end.y-start.y),2));
-  double turningRadius = euclideanDistance / (2*sin(alpha));
-  return turningRadius; //this outputs the turning radius
+  double euclideanDistance = sqrt(pow((goal.x - current.x),2) + pow((goal.y-current.y),2));
+  turningRadius = euclideanDistance / (2*sin(alpha));   //this outputs the turning radius
 }
 
-void compute_steering_angle(turningRadius)
+void compute_steering_angle()
 {
-  steeringAngle = atan(length / turningRadius);
+  steeringAngle = atan(mule.length / turningRadius);
 }
-double compute_forward_velocity(steeringAngle)  //added a variable velocity based on Bijo's suig
+
+void compute_forward_velocity()  //added a variable velocity based on Bijo's suggestion
 {
-  forwardVelocity = inputMaximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));
-  return forward_velocity;  //this specifies the forward velocity at a given steering angle
+
+  forwardVelocity = mule.maximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));  //this specifies the forward velocity at a given steering angle
 }
+
 };
+#endif

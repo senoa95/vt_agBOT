@@ -90,7 +90,7 @@ parser_tests_EXTERNAL_OBJECTS =
 
 /home/senoa95/vt_agBOT/devel/lib/novatel_gps_driver/parser_tests: gps/src/novatel_gps_driver/novatel_gps_driver/CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o
 /home/senoa95/vt_agBOT/devel/lib/novatel_gps_driver/parser_tests: gps/src/novatel_gps_driver/novatel_gps_driver/CMakeFiles/parser_tests.dir/build.make
-/home/senoa95/vt_agBOT/devel/lib/novatel_gps_driver/parser_tests: gtest/libgtest.so
+/home/senoa95/vt_agBOT/devel/lib/novatel_gps_driver/parser_tests: gtest/gtest/libgtest.so
 /home/senoa95/vt_agBOT/devel/lib/novatel_gps_driver/parser_tests: /home/senoa95/vt_agBOT/devel/lib/libnovatel_gps_driver.so
 /home/senoa95/vt_agBOT/devel/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_math_util.so
 /home/senoa95/vt_agBOT/devel/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_serial_util.so

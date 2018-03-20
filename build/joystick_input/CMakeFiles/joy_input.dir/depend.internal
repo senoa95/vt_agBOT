@@ -26,8 +26,19 @@ joystick_input/CMakeFiles/joy_input.dir/src/joy_input.cpp.o
  /opt/ros/kinetic/include/boost_161_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h
+ /opt/ros/kinetic/include/geometry_msgs/Point.h
+ /opt/ros/kinetic/include/geometry_msgs/Pose.h
+ /opt/ros/kinetic/include/geometry_msgs/PoseStamped.h
+ /opt/ros/kinetic/include/geometry_msgs/Quaternion.h
  /opt/ros/kinetic/include/geometry_msgs/Twist.h
  /opt/ros/kinetic/include/geometry_msgs/Vector3.h
+ /opt/ros/kinetic/include/move_base_msgs/MoveBaseAction.h
+ /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionFeedback.h
+ /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionGoal.h
+ /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionResult.h
+ /opt/ros/kinetic/include/move_base_msgs/MoveBaseFeedback.h
+ /opt/ros/kinetic/include/move_base_msgs/MoveBaseGoal.h
+ /opt/ros/kinetic/include/move_base_msgs/MoveBaseResult.h
  /opt/ros/kinetic/include/ros/advertise_options.h
  /opt/ros/kinetic/include/ros/advertise_service_options.h
  /opt/ros/kinetic/include/ros/assert.h
