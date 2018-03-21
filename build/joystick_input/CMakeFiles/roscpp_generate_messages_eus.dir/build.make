@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/senoa95/Documents/vt_agBOT/src
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/senoa95/Documents/vt_agBOT/build
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -63,10 +63,10 @@ joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/build: roscpp_generat
 .PHONY : joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/senoa95/Documents/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/senoa95/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/Documents/vt_agBOT/src /home/senoa95/Documents/vt_agBOT/src/joystick_input /home/senoa95/Documents/vt_agBOT/build /home/senoa95/Documents/vt_agBOT/build/joystick_input /home/senoa95/Documents/vt_agBOT/build/joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/joystick_input /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/joystick_input /home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

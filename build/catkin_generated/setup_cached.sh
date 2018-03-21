@@ -7,7 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/senoa95/Documents/vt_agBOT/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/senoa95/Documents/vt_agBOT/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/senoa95/Documents/vt_agBOT/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/senoa95/Documents/vt_agBOT/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/senoa95/vt_agBOT/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/senoa95/vt_agBOT/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/senoa95/vt_agBOT/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/senoa95/vt_agBOT/build"
+export PYTHONPATH="/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/senoa95/vt_agBOT/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/senoa95/vt_agBOT/src:$ROS_PACKAGE_PATH"

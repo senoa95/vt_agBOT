@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/senoa95/Documents/vt_agBOT/devel/include/joy_input/AckermannDrive.h
+/home/senoa95/vt_agBOT/devel/include/joy_input/AckermannDrive.h
 string
 -
 vector
@@ -22,19 +22,19 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/senoa95/Documents/vt_agBOT/src/agBOT_navigation/src/pp_implementation_modified.cpp
+/home/senoa95/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp
 iostream
 -
 ros/ros.h
-/home/senoa95/Documents/vt_agBOT/src/agBOT_navigation/src/ros/ros.h
+/home/senoa95/vt_agBOT/src/agbot_nav/src/ros/ros.h
 sstream
 -
 utilities_modified.h
-/home/senoa95/Documents/vt_agBOT/src/agBOT_navigation/src/utilities_modified.h
+/home/senoa95/vt_agBOT/src/agbot_nav/src/utilities_modified.h
 joy_input/AckermannDrive.h
 -
 
-/home/senoa95/Documents/vt_agBOT/src/agBOT_navigation/src/utilities_modified.h
+/home/senoa95/vt_agBOT/src/agbot_nav/src/utilities_modified.h
 cmath
 -
 

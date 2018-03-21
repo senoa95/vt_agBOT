@@ -1,8 +1,8 @@
-prefix=/home/senoa95/Documents/vt_agBOT/devel
+prefix=/home/senoa95/vt_agBOT/devel
 
 Name: ackermann_vehicle_description
 Description: Description of ackermann_vehicle_description
 Version: 0.1.3
 Cflags: 
-Libs: -L/home/senoa95/Documents/vt_agBOT/devel/lib 
+Libs: -L/home/senoa95/vt_agBOT/devel/lib 
 Requires: 

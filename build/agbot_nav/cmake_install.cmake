@@ -1,8 +1,8 @@
-# Install script for directory: /home/senoa95/Documents/vt_agBOT/src/agBOT_navigation
+# Install script for directory: /home/senoa95/vt_agBOT/src/agbot_nav
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/senoa95/Documents/vt_agBOT/install")
+  set(CMAKE_INSTALL_PREFIX "/home/senoa95/vt_agBOT/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/senoa95/Documents/vt_agBOT/build/agBOT_navigation/catkin_generated/installspace/agBOT_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/senoa95/vt_agBOT/build/agbot_nav/catkin_generated/installspace/agbot_nav.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agBOT_navigation/cmake" TYPE FILE FILES
-    "/home/senoa95/Documents/vt_agBOT/build/agBOT_navigation/catkin_generated/installspace/agBOT_navigationConfig.cmake"
-    "/home/senoa95/Documents/vt_agBOT/build/agBOT_navigation/catkin_generated/installspace/agBOT_navigationConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agbot_nav/cmake" TYPE FILE FILES
+    "/home/senoa95/vt_agBOT/build/agbot_nav/catkin_generated/installspace/agbot_navConfig.cmake"
+    "/home/senoa95/vt_agBOT/build/agbot_nav/catkin_generated/installspace/agbot_navConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agBOT_navigation" TYPE FILE FILES "/home/senoa95/Documents/vt_agBOT/src/agBOT_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agbot_nav" TYPE FILE FILES "/home/senoa95/vt_agBOT/src/agbot_nav/package.xml")
 endif()
 

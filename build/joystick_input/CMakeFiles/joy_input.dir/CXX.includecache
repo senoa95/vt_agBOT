@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/senoa95/Documents/vt_agBOT/src/joystick_input/src/joy_input.cpp
+/home/senoa95/vt_agBOT/src/joystick_input/src/joy_input.cpp
 ros/ros.h
 -
 stdio.h

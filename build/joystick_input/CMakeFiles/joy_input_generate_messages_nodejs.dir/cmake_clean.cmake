@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/joy_input_generate_messages_nodejs"
-  "/home/senoa95/Documents/vt_agBOT/devel/share/gennodejs/ros/joy_input/msg/AckermannDrive.js"
+  "/home/senoa95/vt_agBOT/devel/share/gennodejs/ros/joy_input/msg/AckermannDrive.js"
 )
 
 # Per-language clean rules from dependency scanning.

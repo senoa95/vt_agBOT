@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/senoa95/Documents/vt_agBOT/src
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/senoa95/Documents/vt_agBOT/build
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/senoa95/Documents/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/Documents/vt_agBOT/build/CMakeFiles /home/senoa95/Documents/vt_agBOT/build/agBOT_navigation/CMakeFiles/progress.marks
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agBOT_navigation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/Documents/vt_agBOT/build/CMakeFiles 0
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles /home/senoa95/vt_agBOT/build/agbot_nav/CMakeFiles/progress.marks
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agbot_nav/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agBOT_navigation/clean
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agbot_nav/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,32 +152,32 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agBOT_navigation/preinstall
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agbot_nav/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agBOT_navigation/preinstall
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agbot_nav/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-agBOT_navigation/CMakeFiles/ackermann_node.dir/rule:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agBOT_navigation/CMakeFiles/ackermann_node.dir/rule
-.PHONY : agBOT_navigation/CMakeFiles/ackermann_node.dir/rule
+agbot_nav/CMakeFiles/ackermann_node.dir/rule:
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 agbot_nav/CMakeFiles/ackermann_node.dir/rule
+.PHONY : agbot_nav/CMakeFiles/ackermann_node.dir/rule
 
 # Convenience name for target.
-ackermann_node: agBOT_navigation/CMakeFiles/ackermann_node.dir/rule
+ackermann_node: agbot_nav/CMakeFiles/ackermann_node.dir/rule
 
 .PHONY : ackermann_node
 
 # fast build rule for target.
 ackermann_node/fast:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f agBOT_navigation/CMakeFiles/ackermann_node.dir/build.make agBOT_navigation/CMakeFiles/ackermann_node.dir/build
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/build
 .PHONY : ackermann_node/fast
 
 src/pp_implementation_modified.o: src/pp_implementation_modified.cpp.o
@@ -186,7 +186,7 @@ src/pp_implementation_modified.o: src/pp_implementation_modified.cpp.o
 
 # target to build an object file
 src/pp_implementation_modified.cpp.o:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f agBOT_navigation/CMakeFiles/ackermann_node.dir/build.make agBOT_navigation/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o
 .PHONY : src/pp_implementation_modified.cpp.o
 
 src/pp_implementation_modified.i: src/pp_implementation_modified.cpp.i
@@ -195,7 +195,7 @@ src/pp_implementation_modified.i: src/pp_implementation_modified.cpp.i
 
 # target to preprocess a source file
 src/pp_implementation_modified.cpp.i:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f agBOT_navigation/CMakeFiles/ackermann_node.dir/build.make agBOT_navigation/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.i
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.i
 .PHONY : src/pp_implementation_modified.cpp.i
 
 src/pp_implementation_modified.s: src/pp_implementation_modified.cpp.s
@@ -204,7 +204,7 @@ src/pp_implementation_modified.s: src/pp_implementation_modified.cpp.s
 
 # target to generate assembly for a file
 src/pp_implementation_modified.cpp.s:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(MAKE) -f agBOT_navigation/CMakeFiles/ackermann_node.dir/build.make agBOT_navigation/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.s
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.s
 .PHONY : src/pp_implementation_modified.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/senoa95/Documents/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
