@@ -10,4 +10,7 @@ set(ackermann_vehicle_EXEC_DEPENDS "ackermann_vehicle_description" "ackermann_ve
 set(ackermann_vehicle_RUN_DEPENDS "ackermann_vehicle_description" "ackermann_vehicle_gazebo")
 set(ackermann_vehicle_TEST_DEPENDS )
 set(ackermann_vehicle_DOC_DEPENDS )
+set(ackermann_vehicle_URL_WEBSITE "http://wiki.ros.org/ackermann_vehicle")
+set(ackermann_vehicle_URL_BUGTRACKER "https://github.com/wunderkammer-laboratory/ackermann_vehicle/issues")
+set(ackermann_vehicle_URL_REPOSITORY "https://github.com/wunderkammer-laboratory/ackermann_vehicle.git")
 set(ackermann_vehicle_DEPRECATED "")

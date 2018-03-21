@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/savio/Documents/vt_agBOT/src/gps_imu_translate/include".split(";")
+__extended_path = "/home/senoa95/Documents/vt_agBOT/src/gps_imu_translate/include".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

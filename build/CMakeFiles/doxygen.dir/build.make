@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/savio/Documents/vt_agBOT/src
+CMAKE_SOURCE_DIR = /home/senoa95/Documents/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/savio/Documents/vt_agBOT/build
+CMAKE_BINARY_DIR = /home/senoa95/Documents/vt_agBOT/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/savio/Documents/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/savio/Documents/vt_agBOT/src /home/savio/Documents/vt_agBOT/src /home/savio/Documents/vt_agBOT/build /home/savio/Documents/vt_agBOT/build /home/savio/Documents/vt_agBOT/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/senoa95/Documents/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/Documents/vt_agBOT/src /home/senoa95/Documents/vt_agBOT/src /home/senoa95/Documents/vt_agBOT/build /home/senoa95/Documents/vt_agBOT/build /home/senoa95/Documents/vt_agBOT/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

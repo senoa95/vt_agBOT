@@ -23,15 +23,15 @@ int main(int argc, char **argv)
   ros::NodeHandle ppcontroller;
 
   ros::Publisher adPub = ppcontroller.advertise<joy_input::AckermannDrive>("/ackermann_cmd", 1000, true);
-  ros::Publisher velocity_pub = ppcontroller.advertise<std_msgs::float64>("/forwardVelocity",1000, true);
+  // ros::Publisher velocity_pub = ppcontroller.advertise<std_msgs::float64>("/forwardVelocity",1000, true);
 
   ros::Rate loop_rate(10);
 
   while (ros::ok())
   {
-    PPController firstCommand;
-    double steering_angle = firstCommand.steeringAngle;
-    double speed = firstCommand.forwardVelocity;
+    joy_input::AckermannDrive firstCommand;
+    firstCommand.steering_angle = steeringAngle;
+    firstCommand.speed = forwardVelocity;
 
     adPub.publish(firstCommand);
 
@@ -39,7 +39,6 @@ int main(int argc, char **argv)
 
     loop_rate.sleep();
 
+}
   return 0;
-}
-}
 };

@@ -10,4 +10,7 @@ set(joy_input_EXEC_DEPENDS "roscpp" "move_base_msgs" "actionlib" "rospy" "std_ms
 set(joy_input_RUN_DEPENDS "roscpp" "move_base_msgs" "actionlib" "rospy" "std_msgs" "message_runtime")
 set(joy_input_TEST_DEPENDS )
 set(joy_input_DOC_DEPENDS )
+set(joy_input_URL_WEBSITE "")
+set(joy_input_URL_BUGTRACKER "")
+set(joy_input_URL_REPOSITORY "")
 set(joy_input_DEPRECATED "")

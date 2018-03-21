@@ -10,4 +10,7 @@ set(agBOT_navigation_EXEC_DEPENDS "roscpp" "rospy" "std_msgs" "joy_input" "messa
 set(agBOT_navigation_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "joy_input" "message_runtime" "move_base_msgs")
 set(agBOT_navigation_TEST_DEPENDS )
 set(agBOT_navigation_DOC_DEPENDS )
+set(agBOT_navigation_URL_WEBSITE "")
+set(agBOT_navigation_URL_BUGTRACKER "")
+set(agBOT_navigation_URL_REPOSITORY "")
 set(agBOT_navigation_DEPRECATED "")

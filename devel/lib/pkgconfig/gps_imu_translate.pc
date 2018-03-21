@@ -1,8 +1,8 @@
-prefix=/home/savio/Documents/vt_agBOT/devel
+prefix=/home/senoa95/Documents/vt_agBOT/devel
 
 Name: gps_imu_translate
 Description: Description of gps_imu_translate
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/savio/Documents/vt_agBOT/devel/lib 
+Libs: -L/home/senoa95/Documents/vt_agBOT/devel/lib 
 Requires: 
