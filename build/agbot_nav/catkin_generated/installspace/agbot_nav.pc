@@ -1,8 +1,0 @@
-prefix=/home/senoa95/vt_agBOT/install
-
-Name: agbot_nav
-Description: Description of agbot_nav
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/senoa95/vt_agBOT/install/lib 
-Requires: 

@@ -1,2 +1,0 @@
-ackermann_vehicle-1/ackermann_vehicle:ackermann_vehicle-1/ackermann_vehicle_description:ackermann_vehicle-1/ackermann_vehicle_gazebo:agbot_nav:gps_imu_translate:joy_translate:joystick_input
--DCATKIN_DEVEL_PREFIX=/home/senoa95/vt_agBOT/devel -DCMAKE_INSTALL_PREFIX=/home/senoa95/vt_agBOT/install -G Unix Makefiles
