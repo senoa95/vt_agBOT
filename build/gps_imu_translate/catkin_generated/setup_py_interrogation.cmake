@@ -1,6 +1,0 @@
-set(gps_imu_translate_SETUP_PY_VERSION "0.0.0")
-set(gps_imu_translate_SETUP_PY_SCRIPTS "")
-set(gps_imu_translate_SETUP_PY_PACKAGES "gps_imu_translate")
-set(gps_imu_translate_SETUP_PY_PACKAGE_DIRS "include/gps_imu_translate")
-set(gps_imu_translate_SETUP_PY_MODULES "")
-set(gps_imu_translate_SETUP_PY_MODULE_DIRS "")

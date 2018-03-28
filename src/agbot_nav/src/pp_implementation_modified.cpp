@@ -31,13 +31,13 @@ void XYZcallback(const geometry_msgs::Pose& data)
 
 int main(int argc, char **argv)
 {
-  Point currentPoint(x,y,yaw);
-  Point goalPoint(7.0,10.0,pi/2);
+  // Point currentPoint(x,y,yaw);
+  // Point goalPoint(7.0,10.0,pi/2);
   AckermannVehicle mule(10,45*pi/180);
   PPController senaPurePursuit(1.5);
-  double turningRadius = senaPurePursuit.turningRadius;
-  double steeringAngle = senaPurePursuit.steeringAngle;
-  double forwardVelocity = senaPurePursuit.forwardVelocity;
+  // double turningRadius = senaPurePursuit.turningRadius;
+  // double steeringAngle = senaPurePursuit.steeringAngle;
+  // double forwardVelocity = senaPurePursuit.forwardVelocity;
   // cout<<turningRadius<<endl;
 
   ros::init(argc, argv, "simple_pp");
@@ -52,12 +52,18 @@ int main(int argc, char **argv)
   while (ros::ok())
   {
     Point currentPoint(x,y,yaw);
-    double turningRadius = senaPurePursuit.compute_turning_radius;
-    double steeringAngle = senaPurePursuit.steeringAngle;
-    double forwardVelocity = senaPurePursuit.forwardVelocity;
+    Point goalPoint(7.0,10.0,pi/2);
+
+
+    // Recompute turningRadius , steeringAngle and velocity for current start and goal point:
+    senaPurePursuit.compute_turning_radius(currentPoint, goalPoint);
+    senaPurePursuit.compute_steering_angle();
+    senaPurePursuit.compute_forward_velocity();
+
+
     joy_input::AckermannDrive firstCommand;
-    firstCommand.steering_angle = steeringAngle;
-    firstCommand.speed = forwardVelocity;
+    firstCommand.steering_angle = senaPurePursuit.steeringAngle;
+    firstCommand.speed = senaPurePursuit.forwardVelocity;
 
     adPub.publish(firstCommand);
 

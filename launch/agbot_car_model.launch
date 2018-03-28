@@ -8,4 +8,8 @@
 	<node pkg="gps_imu_translate" type="gps_imu_trans.py" name="fix">
   	</node>
 
+	<node pkg="agbot_nav" type="gps_to_xyz.py" name="gps_to_xyz_conv"></node>
+
+	<node pkg="agbot_nav" type="ackermann_node" name="simple_pp"></node>
+
 </launch>
