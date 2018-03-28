@@ -2,23 +2,32 @@
 import rospy
 import utm
 from sensor_msgs.msg import NavSatFix
-from geometry_msgs import Pose
+from geometry_msgs.msg import Pose
 
 
 # Counter to keep track of the number of callbacks:
-global cBackCounter = 0
+#global cBackCounter = 0
 
 # Boolean variable to indicate whether the initial co-ordinates have been set:
-global iniSet = False
+global iniSet
 
 # Variables for xyz coordinates:
-global x = 0
-global y = 0
-global z = 0
+global x
+global y
+global z
 
-global iniX = 0
-global iniY = 0
+global iniX
+global iniY
 
+
+iniX = 0
+iniY = 0
+
+x=0
+y=0
+z=0
+
+iniSet = False
 
 def conv_callback(data):
 
@@ -26,7 +35,7 @@ def conv_callback(data):
 
     if not iniSet:
 
-        iniX,iniY, zoneNum , char = utm.from_lat_lon(data.latitude, data.longitude)
+        iniX,iniY, zoneNum , char = utm.from_latlon(data.latitude, data.longitude)
 
         z = data.altitude
 
@@ -34,7 +43,7 @@ def conv_callback(data):
 
     else:
 
-        xUTM,yUTM, zoneNum , char = utm.from_lat_lon(data.latitude, data.longitude)
+        xUTM,yUTM, zoneNum , char = utm.from_latlon(data.latitude, data.longitude)
 
         x = xUTM - iniX
         y=  yUTM - iniY
@@ -45,6 +54,8 @@ def conv_callback(data):
 def gps_xyz_conv():
 
     global  iniSet , x, y, z
+
+    rospy.init_node("gps_to_xyz_conv", anonymous = True)
 
     # Create a subscriber to the GPS topic:
     rospy.Subscriber("/fix", NavSatFix, conv_callback)
