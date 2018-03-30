@@ -1,0 +1,8 @@
+prefix=/home/senoa95/vt_agBOT/install
+
+Name: hector_gazebo_thermal_camera
+Description: Description of hector_gazebo_thermal_camera
+Version: 0.5.0
+Cflags: -I/home/senoa95/vt_agBOT/install/include
+Libs: -L/home/senoa95/vt_agBOT/install/lib 
+Requires: gazebo_plugins

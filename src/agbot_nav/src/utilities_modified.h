@@ -75,7 +75,8 @@ void compute_steering_angle()
 void compute_forward_velocity()  //added a variable velocity based on Bijo's suggestion
 {
 
-  forwardVelocity = mule.maximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));  //this specifies the forward velocity at a given steering angle
+  // forwardVelocity = mule.maximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));  //this specifies the forward velocity at a given steering angle
+  forwardVelocity = 0.5;
 }
 
 };
