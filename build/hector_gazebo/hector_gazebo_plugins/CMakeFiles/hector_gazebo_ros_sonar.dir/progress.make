@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 CMAKE_PROGRESS_1 = 34
 CMAKE_PROGRESS_2 = 35
+=======
+CMAKE_PROGRESS_1 = 41
+CMAKE_PROGRESS_2 = 42
+>>>>>>> origin/sena
 

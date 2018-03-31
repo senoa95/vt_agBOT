@@ -67,14 +67,23 @@ set(joy_input_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(joy_input_SOURCE_PREFIX /home/agcommand/vt_agBOT/src/joystick_input)
   set(joy_input_DEVEL_PREFIX /home/agcommand/vt_agBOT/devel)
+=======
+  set(joy_input_SOURCE_PREFIX /home/senoa95/vt_agBOT/src/joystick_input)
+  set(joy_input_DEVEL_PREFIX /home/senoa95/vt_agBOT/devel)
+>>>>>>> origin/sena
   set(joy_input_INSTALL_PREFIX "")
   set(joy_input_PREFIX ${joy_input_DEVEL_PREFIX})
 else()
   set(joy_input_SOURCE_PREFIX "")
   set(joy_input_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(joy_input_INSTALL_PREFIX /home/agcommand/vt_agBOT/install)
+=======
+  set(joy_input_INSTALL_PREFIX /home/senoa95/vt_agBOT/install)
+>>>>>>> origin/sena
   set(joy_input_PREFIX ${joy_input_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +100,15 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(joy_input_FOUND_CATKIN_PROJECT TRUE)
 
+<<<<<<< HEAD
 if(NOT "/home/agcommand/vt_agBOT/devel/include " STREQUAL " ")
   set(joy_input_INCLUDE_DIRS "")
   set(_include_dirs "/home/agcommand/vt_agBOT/devel/include")
+=======
+if(NOT "/home/senoa95/vt_agBOT/devel/include " STREQUAL " ")
+  set(joy_input_INCLUDE_DIRS "")
+  set(_include_dirs "/home/senoa95/vt_agBOT/devel/include")
+>>>>>>> origin/sena
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +125,11 @@ if(NOT "/home/agcommand/vt_agBOT/devel/include " STREQUAL " ")
         message(FATAL_ERROR "Project 'joy_input' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'joy_input' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/agcommand/vt_agBOT/src/joystick_input/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'joy_input' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/senoa95/vt_agBOT/src/joystick_input/${idir}'.  ${_report}")
+>>>>>>> origin/sena
     endif()
     _list_append_unique(joy_input_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +148,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/agcommand/vt_agBOT/devel/lib;/home/agcommand/agbot_car_model_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /home/senoa95/vt_agBOT/devel/lib;/opt/ros/kinetic/lib)
+>>>>>>> origin/sena
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for run_tests.
 
@@ -67,6 +74,10 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : CMakeFiles/run_tests.dir/depend
 

@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +142,24 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/agcommand/vt_agBOT/build/CMakeFiles /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/progress.marks
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/agcommand/vt_agBOT/build/CMakeFiles 0
+=======
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/progress.marks
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles 0
+>>>>>>> origin/sena
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/clean
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/clean
+>>>>>>> origin/sena
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +169,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/preinstall
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/preinstall
+>>>>>>> origin/sena
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/preinstall
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/preinstall
+>>>>>>> origin/sena
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> origin/sena
 .PHONY : depend
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/rule
 
 # Convenience name for target.
@@ -177,12 +210,20 @@ hector_servo_plugin: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo
 
 # fast build rule for target.
 hector_servo_plugin/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_servo_plugin/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/rule
 
 # Convenience name for target.
@@ -192,12 +233,20 @@ hector_gazebo_ros_sonar: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_g
 
 # fast build rule for target.
 hector_gazebo_ros_sonar/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_ros_sonar/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/rule
 
 # Convenience name for target.
@@ -207,12 +256,20 @@ hector_gazebo_ros_gps: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gaz
 
 # fast build rule for target.
 hector_gazebo_ros_gps/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_ros_gps/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/rule
 
 # Convenience name for target.
@@ -222,12 +279,20 @@ hector_gazebo_ros_imu: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gaz
 
 # fast build rule for target.
 hector_gazebo_ros_imu/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_ros_imu/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -237,12 +302,20 @@ sensor_msgs_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -252,12 +325,20 @@ sensor_msgs_generate_messages_nodejs: hector_gazebo/hector_gazebo_plugins/CMakeF
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +348,20 @@ tf2_msgs_generate_messages_cpp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/t
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -282,12 +371,20 @@ tf_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_gener
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +394,20 @@ sensor_msgs_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFile
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/rule
 
 # Convenience name for target.
@@ -312,12 +417,20 @@ hector_gazebo_plugins_gencfg: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hec
 
 # fast build rule for target.
 hector_gazebo_plugins_gencfg/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_gencfg/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -327,12 +440,20 @@ tf_generate_messages_nodejs: hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_g
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -342,12 +463,20 @@ tf_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_gene
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +486,20 @@ std_srvs_generate_messages_cpp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/s
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -372,12 +509,20 @@ dynamic_reconfigure_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CM
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/rule
 
 # Convenience name for target.
@@ -387,12 +532,20 @@ diffdrive_plugin_6w: hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_pl
 
 # fast build rule for target.
 diffdrive_plugin_6w/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build
+>>>>>>> origin/sena
 .PHONY : diffdrive_plugin_6w/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -402,12 +555,20 @@ tf2_msgs_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/t
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -417,12 +578,20 @@ nav_msgs_generate_messages_lisp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -432,12 +601,20 @@ tf2_msgs_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -447,12 +624,20 @@ std_srvs_generate_messages_lisp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +647,20 @@ hector_gazebo_plugins_generate_messages_lisp: hector_gazebo/hector_gazebo_plugin
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -477,12 +670,20 @@ hector_gazebo_plugins_generate_messages_eus: hector_gazebo/hector_gazebo_plugins
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -492,12 +693,20 @@ dynamic_reconfigure_generate_messages_lisp: hector_gazebo/hector_gazebo_plugins/
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -507,12 +716,20 @@ sensor_msgs_generate_messages_lisp: hector_gazebo/hector_gazebo_plugins/CMakeFil
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +739,20 @@ tf2_msgs_generate_messages_lisp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -537,12 +762,20 @@ tf_generate_messages_cpp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_gene
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -552,12 +785,20 @@ std_srvs_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/s
 
 # fast build rule for target.
 std_srvs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : std_srvs_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -567,12 +808,20 @@ nav_msgs_generate_messages_nodejs: hector_gazebo/hector_gazebo_plugins/CMakeFile
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -582,12 +831,20 @@ std_srvs_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles/st
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -597,12 +854,20 @@ dynamic_reconfigure_generate_messages_cpp: hector_gazebo/hector_gazebo_plugins/C
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/rule
 
 # Convenience name for target.
@@ -612,12 +877,20 @@ hector_gazebo_plugins_genpy: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hect
 
 # fast build rule for target.
 hector_gazebo_plugins_genpy/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genpy.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_genpy/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -627,12 +900,20 @@ nav_msgs_generate_messages_cpp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/n
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -642,12 +923,20 @@ tf_generate_messages_lisp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_gen
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -657,12 +946,20 @@ tf2_msgs_generate_messages_nodejs: hector_gazebo/hector_gazebo_plugins/CMakeFile
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -672,12 +969,20 @@ nav_msgs_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles/na
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -687,12 +992,20 @@ std_srvs_generate_messages_nodejs: hector_gazebo/hector_gazebo_plugins/CMakeFile
 
 # fast build rule for target.
 std_srvs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/rule
 
 # Convenience name for target.
@@ -702,12 +1015,20 @@ hector_gazebo_reset_plugin: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hecto
 
 # fast build rule for target.
 hector_gazebo_reset_plugin/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_reset_plugin/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -717,12 +1038,20 @@ nav_msgs_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/n
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -732,12 +1061,20 @@ dynamic_reconfigure_generate_messages_nodejs: hector_gazebo/hector_gazebo_plugin
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/rule
 
 # Convenience name for target.
@@ -747,12 +1084,20 @@ _hector_gazebo_plugins_generate_messages_check_deps_SetBias: hector_gazebo/hecto
 
 # fast build rule for target.
 _hector_gazebo_plugins_generate_messages_check_deps_SetBias/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/_hector_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build
+>>>>>>> origin/sena
 .PHONY : _hector_gazebo_plugins_generate_messages_check_deps_SetBias/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -762,12 +1107,20 @@ dynamic_reconfigure_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/C
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -777,12 +1130,20 @@ hector_gazebo_plugins_generate_messages: hector_gazebo/hector_gazebo_plugins/CMa
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_generate_messages/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -792,12 +1153,20 @@ hector_gazebo_plugins_generate_messages_cpp: hector_gazebo/hector_gazebo_plugins
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/rule
 
 # Convenience name for target.
@@ -807,12 +1176,20 @@ hector_gazebo_plugins_gencpp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hec
 
 # fast build rule for target.
 hector_gazebo_plugins_gencpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencpp.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_gencpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/rule
 
 # Convenience name for target.
@@ -822,12 +1199,20 @@ hector_gazebo_ros_magnetic: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hecto
 
 # fast build rule for target.
 hector_gazebo_ros_magnetic/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_ros_magnetic/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -837,12 +1222,20 @@ dynamic_reconfigure_gencfg: hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynam
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+>>>>>>> origin/sena
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -852,12 +1245,20 @@ hector_gazebo_plugins_gennodejs: hector_gazebo/hector_gazebo_plugins/CMakeFiles/
 
 # fast build rule for target.
 hector_gazebo_plugins_gennodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gennodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_gennodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/rule
 
 # Convenience name for target.
@@ -867,12 +1268,20 @@ hector_gazebo_plugins_geneus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hec
 
 # fast build rule for target.
 hector_gazebo_plugins_geneus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_geneus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/rule
 
 # Convenience name for target.
@@ -882,12 +1291,20 @@ hector_gazebo_plugins_genlisp: hector_gazebo/hector_gazebo_plugins/CMakeFiles/he
 
 # fast build rule for target.
 hector_gazebo_plugins_genlisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genlisp.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_genlisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/rule
 
 # Convenience name for target.
@@ -897,12 +1314,20 @@ gazebo_ros_force_based_move: hector_gazebo/hector_gazebo_plugins/CMakeFiles/gaze
 
 # fast build rule for target.
 gazebo_ros_force_based_move/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_ros_force_based_move/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -912,12 +1337,20 @@ sensor_msgs_generate_messages_cpp: hector_gazebo/hector_gazebo_plugins/CMakeFile
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -927,12 +1360,20 @@ hector_gazebo_plugins_generate_messages_py: hector_gazebo/hector_gazebo_plugins/
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -942,12 +1383,20 @@ hector_gazebo_plugins_generate_messages_nodejs: hector_gazebo/hector_gazebo_plug
 
 # fast build rule for target.
 hector_gazebo_plugins_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : hector_gazebo_plugins_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/rule
 
 # Convenience name for target.
@@ -957,7 +1406,11 @@ diffdrive_plugin_multi_wheel: hector_gazebo/hector_gazebo_plugins/CMakeFiles/dif
 
 # fast build rule for target.
 diffdrive_plugin_multi_wheel/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build
+>>>>>>> origin/sena
 .PHONY : diffdrive_plugin_multi_wheel/fast
 
 src/diffdrive_plugin_6w.o: src/diffdrive_plugin_6w.cpp.o
@@ -966,7 +1419,11 @@ src/diffdrive_plugin_6w.o: src/diffdrive_plugin_6w.cpp.o
 
 # target to build an object file
 src/diffdrive_plugin_6w.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/diffdrive_plugin_6w.cpp.o
 
 src/diffdrive_plugin_6w.i: src/diffdrive_plugin_6w.cpp.i
@@ -975,7 +1432,11 @@ src/diffdrive_plugin_6w.i: src/diffdrive_plugin_6w.cpp.i
 
 # target to preprocess a source file
 src/diffdrive_plugin_6w.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/diffdrive_plugin_6w.cpp.i
 
 src/diffdrive_plugin_6w.s: src/diffdrive_plugin_6w.cpp.s
@@ -984,7 +1445,11 @@ src/diffdrive_plugin_6w.s: src/diffdrive_plugin_6w.cpp.s
 
 # target to generate assembly for a file
 src/diffdrive_plugin_6w.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/diffdrive_plugin_6w.cpp.s
 
 src/diffdrive_plugin_multi_wheel.o: src/diffdrive_plugin_multi_wheel.cpp.o
@@ -993,7 +1458,11 @@ src/diffdrive_plugin_multi_wheel.o: src/diffdrive_plugin_multi_wheel.cpp.o
 
 # target to build an object file
 src/diffdrive_plugin_multi_wheel.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/src/diffdrive_plugin_multi_wheel.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/src/diffdrive_plugin_multi_wheel.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/diffdrive_plugin_multi_wheel.cpp.o
 
 src/diffdrive_plugin_multi_wheel.i: src/diffdrive_plugin_multi_wheel.cpp.i
@@ -1002,7 +1471,11 @@ src/diffdrive_plugin_multi_wheel.i: src/diffdrive_plugin_multi_wheel.cpp.i
 
 # target to preprocess a source file
 src/diffdrive_plugin_multi_wheel.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/src/diffdrive_plugin_multi_wheel.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/src/diffdrive_plugin_multi_wheel.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/diffdrive_plugin_multi_wheel.cpp.i
 
 src/diffdrive_plugin_multi_wheel.s: src/diffdrive_plugin_multi_wheel.cpp.s
@@ -1011,7 +1484,11 @@ src/diffdrive_plugin_multi_wheel.s: src/diffdrive_plugin_multi_wheel.cpp.s
 
 # target to generate assembly for a file
 src/diffdrive_plugin_multi_wheel.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/src/diffdrive_plugin_multi_wheel.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/diffdrive_plugin_multi_wheel.dir/src/diffdrive_plugin_multi_wheel.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/diffdrive_plugin_multi_wheel.cpp.s
 
 src/gazebo_ros_force_based_move.o: src/gazebo_ros_force_based_move.cpp.o
@@ -1020,7 +1497,11 @@ src/gazebo_ros_force_based_move.o: src/gazebo_ros_force_based_move.cpp.o
 
 # target to build an object file
 src/gazebo_ros_force_based_move.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_force_based_move.cpp.o
 
 src/gazebo_ros_force_based_move.i: src/gazebo_ros_force_based_move.cpp.i
@@ -1029,7 +1510,11 @@ src/gazebo_ros_force_based_move.i: src/gazebo_ros_force_based_move.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_force_based_move.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_force_based_move.cpp.i
 
 src/gazebo_ros_force_based_move.s: src/gazebo_ros_force_based_move.cpp.s
@@ -1038,7 +1523,11 @@ src/gazebo_ros_force_based_move.s: src/gazebo_ros_force_based_move.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_force_based_move.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_force_based_move.cpp.s
 
 src/gazebo_ros_gps.o: src/gazebo_ros_gps.cpp.o
@@ -1047,7 +1536,11 @@ src/gazebo_ros_gps.o: src/gazebo_ros_gps.cpp.o
 
 # target to build an object file
 src/gazebo_ros_gps.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_gps.cpp.o
 
 src/gazebo_ros_gps.i: src/gazebo_ros_gps.cpp.i
@@ -1056,7 +1549,11 @@ src/gazebo_ros_gps.i: src/gazebo_ros_gps.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_gps.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_gps.cpp.i
 
 src/gazebo_ros_gps.s: src/gazebo_ros_gps.cpp.s
@@ -1065,7 +1562,11 @@ src/gazebo_ros_gps.s: src/gazebo_ros_gps.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_gps.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_gps.cpp.s
 
 src/gazebo_ros_imu.o: src/gazebo_ros_imu.cpp.o
@@ -1074,7 +1575,11 @@ src/gazebo_ros_imu.o: src/gazebo_ros_imu.cpp.o
 
 # target to build an object file
 src/gazebo_ros_imu.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_imu.cpp.o
 
 src/gazebo_ros_imu.i: src/gazebo_ros_imu.cpp.i
@@ -1083,7 +1588,11 @@ src/gazebo_ros_imu.i: src/gazebo_ros_imu.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_imu.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_imu.cpp.i
 
 src/gazebo_ros_imu.s: src/gazebo_ros_imu.cpp.s
@@ -1092,7 +1601,11 @@ src/gazebo_ros_imu.s: src/gazebo_ros_imu.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_imu.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_imu.cpp.s
 
 src/gazebo_ros_magnetic.o: src/gazebo_ros_magnetic.cpp.o
@@ -1101,7 +1614,11 @@ src/gazebo_ros_magnetic.o: src/gazebo_ros_magnetic.cpp.o
 
 # target to build an object file
 src/gazebo_ros_magnetic.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_magnetic.cpp.o
 
 src/gazebo_ros_magnetic.i: src/gazebo_ros_magnetic.cpp.i
@@ -1110,7 +1627,11 @@ src/gazebo_ros_magnetic.i: src/gazebo_ros_magnetic.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_magnetic.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_magnetic.cpp.i
 
 src/gazebo_ros_magnetic.s: src/gazebo_ros_magnetic.cpp.s
@@ -1119,7 +1640,11 @@ src/gazebo_ros_magnetic.s: src/gazebo_ros_magnetic.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_magnetic.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_magnetic.cpp.s
 
 src/gazebo_ros_sonar.o: src/gazebo_ros_sonar.cpp.o
@@ -1128,7 +1653,11 @@ src/gazebo_ros_sonar.o: src/gazebo_ros_sonar.cpp.o
 
 # target to build an object file
 src/gazebo_ros_sonar.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/src/gazebo_ros_sonar.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/src/gazebo_ros_sonar.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_sonar.cpp.o
 
 src/gazebo_ros_sonar.i: src/gazebo_ros_sonar.cpp.i
@@ -1137,7 +1666,11 @@ src/gazebo_ros_sonar.i: src/gazebo_ros_sonar.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_sonar.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/src/gazebo_ros_sonar.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/src/gazebo_ros_sonar.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_sonar.cpp.i
 
 src/gazebo_ros_sonar.s: src/gazebo_ros_sonar.cpp.s
@@ -1146,7 +1679,11 @@ src/gazebo_ros_sonar.s: src/gazebo_ros_sonar.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_sonar.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/src/gazebo_ros_sonar.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/src/gazebo_ros_sonar.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_sonar.cpp.s
 
 src/reset_plugin.o: src/reset_plugin.cpp.o
@@ -1155,7 +1692,11 @@ src/reset_plugin.o: src/reset_plugin.cpp.o
 
 # target to build an object file
 src/reset_plugin.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/reset_plugin.cpp.o
 
 src/reset_plugin.i: src/reset_plugin.cpp.i
@@ -1164,7 +1705,11 @@ src/reset_plugin.i: src/reset_plugin.cpp.i
 
 # target to preprocess a source file
 src/reset_plugin.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/reset_plugin.cpp.i
 
 src/reset_plugin.s: src/reset_plugin.cpp.s
@@ -1173,7 +1718,11 @@ src/reset_plugin.s: src/reset_plugin.cpp.s
 
 # target to generate assembly for a file
 src/reset_plugin.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/reset_plugin.cpp.s
 
 src/servo_plugin.o: src/servo_plugin.cpp.o
@@ -1182,7 +1731,11 @@ src/servo_plugin.o: src/servo_plugin.cpp.o
 
 # target to build an object file
 src/servo_plugin.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/servo_plugin.cpp.o
 
 src/servo_plugin.i: src/servo_plugin.cpp.i
@@ -1191,7 +1744,11 @@ src/servo_plugin.i: src/servo_plugin.cpp.i
 
 # target to preprocess a source file
 src/servo_plugin.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/servo_plugin.cpp.i
 
 src/servo_plugin.s: src/servo_plugin.cpp.s
@@ -1200,7 +1757,11 @@ src/servo_plugin.s: src/servo_plugin.cpp.s
 
 # target to generate assembly for a file
 src/servo_plugin.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/servo_plugin.cpp.s
 
 # Help Target
@@ -1307,6 +1868,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> origin/sena
 .PHONY : cmake_check_build_system
 

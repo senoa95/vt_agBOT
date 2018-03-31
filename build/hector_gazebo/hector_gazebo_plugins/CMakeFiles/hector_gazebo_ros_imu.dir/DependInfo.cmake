@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_imu.cpp" "/home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.o"
+=======
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_imu.cpp" "/home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.o"
+>>>>>>> origin/sena
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +21,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+<<<<<<< HEAD
   "/home/agcommand/vt_agBOT/devel/include"
   "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/include"
+=======
+  "/home/senoa95/vt_agBOT/devel/include"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/include"
+>>>>>>> origin/sena
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-7"

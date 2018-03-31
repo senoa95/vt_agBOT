@@ -1,7 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o"
+<<<<<<< HEAD
   "/home/agcommand/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.pdb"
   "/home/agcommand/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so"
+=======
+  "/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.pdb"
+  "/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so"
+>>>>>>> origin/sena
 )
 
 # Per-language clean rules from dependency scanning.

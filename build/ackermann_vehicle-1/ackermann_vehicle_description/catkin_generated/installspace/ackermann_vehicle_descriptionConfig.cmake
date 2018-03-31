@@ -67,14 +67,23 @@ set(ackermann_vehicle_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(ackermann_vehicle_description_SOURCE_PREFIX /home/agcommand/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description)
   set(ackermann_vehicle_description_DEVEL_PREFIX /home/agcommand/vt_agBOT/devel)
+=======
+  set(ackermann_vehicle_description_SOURCE_PREFIX /home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description)
+  set(ackermann_vehicle_description_DEVEL_PREFIX /home/senoa95/vt_agBOT/devel)
+>>>>>>> origin/sena
   set(ackermann_vehicle_description_INSTALL_PREFIX "")
   set(ackermann_vehicle_description_PREFIX ${ackermann_vehicle_description_DEVEL_PREFIX})
 else()
   set(ackermann_vehicle_description_SOURCE_PREFIX "")
   set(ackermann_vehicle_description_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(ackermann_vehicle_description_INSTALL_PREFIX /home/agcommand/vt_agBOT/install)
+=======
+  set(ackermann_vehicle_description_INSTALL_PREFIX /home/senoa95/vt_agBOT/install)
+>>>>>>> origin/sena
   set(ackermann_vehicle_description_PREFIX ${ackermann_vehicle_description_INSTALL_PREFIX})
 endif()
 
@@ -110,7 +119,11 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'ackermann_vehicle_description' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'ackermann_vehicle_description' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/agcommand/vt_agBOT/install/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'ackermann_vehicle_description' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/senoa95/vt_agBOT/install/${idir}'.  ${_report}")
+>>>>>>> origin/sena
     endif()
     _list_append_unique(ackermann_vehicle_description_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +142,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/agcommand/vt_agBOT/install/lib;/home/agcommand/agbot_car_model_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /home/senoa95/vt_agBOT/install/lib;/opt/ros/kinetic/lib)
+>>>>>>> origin/sena
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

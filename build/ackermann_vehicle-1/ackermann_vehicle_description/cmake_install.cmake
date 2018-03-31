@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/agcommand/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/agcommand/vt_agBOT/install")
+=======
+# Install script for directory: /home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/senoa95/vt_agBOT/install")
+>>>>>>> origin/sena
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,24 +41,42 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/agcommand/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_description/catkin_generated/installspace/ackermann_vehicle_description.pc")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_description/catkin_generated/installspace/ackermann_vehicle_description.pc")
+>>>>>>> origin/sena
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_vehicle_description/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/agcommand/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_description/catkin_generated/installspace/ackermann_vehicle_descriptionConfig.cmake"
     "/home/agcommand/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_description/catkin_generated/installspace/ackermann_vehicle_descriptionConfig-version.cmake"
+=======
+    "/home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_description/catkin_generated/installspace/ackermann_vehicle_descriptionConfig.cmake"
+    "/home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_description/catkin_generated/installspace/ackermann_vehicle_descriptionConfig-version.cmake"
+>>>>>>> origin/sena
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_vehicle_description" TYPE FILE FILES "/home/agcommand/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/package.xml")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_vehicle_description" TYPE FILE FILES "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/package.xml")
+>>>>>>> origin/sena
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_vehicle_description" TYPE DIRECTORY FILES
+<<<<<<< HEAD
     "/home/agcommand/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/launch"
     "/home/agcommand/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/urdf"
+=======
+    "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/launch"
+    "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/urdf"
+>>>>>>> origin/sena
     )
 endif()
 

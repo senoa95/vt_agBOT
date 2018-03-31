@@ -1,7 +1,11 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
+<<<<<<< HEAD
 services_str = "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/srv/SetBias.srv"
+=======
+services_str = "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/srv/SetBias.srv"
+>>>>>>> origin/sena
 pkg_name = "hector_gazebo_plugins"
 dependencies_str = "geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

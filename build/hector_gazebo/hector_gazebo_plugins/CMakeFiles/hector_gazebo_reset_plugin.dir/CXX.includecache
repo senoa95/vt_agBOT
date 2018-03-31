@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h
+=======
+/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h
+>>>>>>> origin/sena
 gazebo/common/Plugin.hh
 -
 ros/ros.h
 -
 
+<<<<<<< HEAD
 /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/src/reset_plugin.cpp
+=======
+/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/src/reset_plugin.cpp
+>>>>>>> origin/sena
 hector_gazebo_plugins/reset_plugin.h
 -
 gazebo/common/Events.hh

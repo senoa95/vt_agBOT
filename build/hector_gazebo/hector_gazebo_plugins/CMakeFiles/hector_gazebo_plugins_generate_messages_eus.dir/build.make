@@ -43,16 +43,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for hector_gazebo_plugins_generate_messages_eus.
 
 # Include the progress variables for this target.
 include hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/progress.make
 
+<<<<<<< HEAD
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l
 
@@ -70,6 +78,25 @@ hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_me
 hector_gazebo_plugins_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus
 hector_gazebo_plugins_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l
 hector_gazebo_plugins_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l
+=======
+hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l
+hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l
+
+
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l: /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/srv/SetBias.srv
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from hector_gazebo_plugins/SetBias.srv"
+	cd /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/srv/SetBias.srv -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hector_gazebo_plugins -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv
+
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for hector_gazebo_plugins"
+	cd /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins hector_gazebo_plugins geometry_msgs
+
+hector_gazebo_plugins_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus
+hector_gazebo_plugins_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l
+hector_gazebo_plugins_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l
+>>>>>>> origin/sena
 hector_gazebo_plugins_generate_messages_eus: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build.make
 
 .PHONY : hector_gazebo_plugins_generate_messages_eus
@@ -80,10 +107,18 @@ hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_me
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/build
 
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/clean
 
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/cmake_clean.cmake
+.PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/clean
+
+hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_eus.dir/depend
 

@@ -36,6 +36,10 @@ struct SetBiasResponse_
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/sena
   typedef boost::shared_ptr< ::hector_gazebo_plugins::SetBiasResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::hector_gazebo_plugins::SetBiasResponse_<ContainerAllocator> const> ConstPtr;
 

@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/agcommand/vt_agBOT/install/setup.sh
+=======
+    local-name: /home/senoa95/vt_agBOT/install/setup.sh
+>>>>>>> origin/sena

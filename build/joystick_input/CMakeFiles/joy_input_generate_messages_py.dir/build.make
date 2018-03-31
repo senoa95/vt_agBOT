@@ -43,16 +43,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for joy_input_generate_messages_py.
 
 # Include the progress variables for this target.
 include joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/progress.make
 
+<<<<<<< HEAD
 joystick_input/CMakeFiles/joy_input_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py
 joystick_input/CMakeFiles/joy_input_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/__init__.py
 
@@ -70,6 +78,33 @@ joystick_input/CMakeFiles/joy_input_generate_messages_py: /home/agcommand/vt_agB
 joy_input_generate_messages_py: joystick_input/CMakeFiles/joy_input_generate_messages_py
 joy_input_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py
 joy_input_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/__init__.py
+=======
+joystick_input/CMakeFiles/joy_input_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py
+joystick_input/CMakeFiles/joy_input_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_latlon.py
+joystick_input/CMakeFiles/joy_input_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/__init__.py
+
+
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py: /home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG joy_input/AckermannDrive"
+	cd /home/senoa95/vt_agBOT/build/joystick_input && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg -Ijoy_input:/home/senoa95/vt_agBOT/src/joystick_input/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Imove_base_msgs:/opt/ros/kinetic/share/move_base_msgs/cmake/../msg -Iactionlib:/opt/ros/kinetic/share/actionlib/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p joy_input -o /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg
+
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_latlon.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_latlon.py: /home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG joy_input/latlon"
+	cd /home/senoa95/vt_agBOT/build/joystick_input && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg -Ijoy_input:/home/senoa95/vt_agBOT/src/joystick_input/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Imove_base_msgs:/opt/ros/kinetic/share/move_base_msgs/cmake/../msg -Iactionlib:/opt/ros/kinetic/share/actionlib/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p joy_input -o /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg
+
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/__init__.py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/__init__.py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_latlon.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for joy_input"
+	cd /home/senoa95/vt_agBOT/build/joystick_input && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg --initpy
+
+joy_input_generate_messages_py: joystick_input/CMakeFiles/joy_input_generate_messages_py
+joy_input_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_AckermannDrive.py
+joy_input_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/_latlon.py
+joy_input_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/joy_input/msg/__init__.py
+>>>>>>> origin/sena
 joy_input_generate_messages_py: joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/build.make
 
 .PHONY : joy_input_generate_messages_py
@@ -80,10 +115,18 @@ joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/build: joy_input_ge
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/build
 
 joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/clean
 
 joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/joystick_input /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/joystick_input /home/agcommand/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_generate_messages_py.dir/cmake_clean.cmake
+.PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/clean
+
+joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/joystick_input /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/joystick_input /home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/depend
 

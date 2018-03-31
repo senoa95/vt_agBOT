@@ -43,16 +43,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for hector_gazebo_plugins_generate_messages_py.
 
 # Include the progress variables for this target.
 include hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/progress.make
 
+<<<<<<< HEAD
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py
 
@@ -71,6 +79,26 @@ hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_me
 hector_gazebo_plugins_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py
 hector_gazebo_plugins_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py
 hector_gazebo_plugins_generate_messages_py: /home/agcommand/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py
+=======
+hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py
+hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py
+
+
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py: /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/srv/SetBias.srv
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV hector_gazebo_plugins/SetBias"
+	cd /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/srv/SetBias.srv -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hector_gazebo_plugins -o /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv
+
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for hector_gazebo_plugins"
+	cd /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv --initpy
+
+hector_gazebo_plugins_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py
+hector_gazebo_plugins_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py
+hector_gazebo_plugins_generate_messages_py: /home/senoa95/vt_agBOT/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py
+>>>>>>> origin/sena
 hector_gazebo_plugins_generate_messages_py: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build.make
 
 .PHONY : hector_gazebo_plugins_generate_messages_py
@@ -81,10 +109,18 @@ hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_me
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/build
 
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/clean
 
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/cmake_clean.cmake
+.PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/clean
+
+hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_generate_messages_py.dir/depend
 

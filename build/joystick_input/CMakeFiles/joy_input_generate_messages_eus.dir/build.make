@@ -43,16 +43,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for joy_input_generate_messages_eus.
 
 # Include the progress variables for this target.
 include joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/progress.make
 
+<<<<<<< HEAD
 joystick_input/CMakeFiles/joy_input_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/joy_input/msg/AckermannDrive.l
 joystick_input/CMakeFiles/joy_input_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/joy_input/manifest.l
 
@@ -69,6 +77,31 @@ joystick_input/CMakeFiles/joy_input_generate_messages_eus: /home/agcommand/vt_ag
 joy_input_generate_messages_eus: joystick_input/CMakeFiles/joy_input_generate_messages_eus
 joy_input_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/joy_input/msg/AckermannDrive.l
 joy_input_generate_messages_eus: /home/agcommand/vt_agBOT/devel/share/roseus/ros/joy_input/manifest.l
+=======
+joystick_input/CMakeFiles/joy_input_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/AckermannDrive.l
+joystick_input/CMakeFiles/joy_input_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/latlon.l
+joystick_input/CMakeFiles/joy_input_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/manifest.l
+
+
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/AckermannDrive.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/AckermannDrive.l: /home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from joy_input/AckermannDrive.msg"
+	cd /home/senoa95/vt_agBOT/build/joystick_input && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/senoa95/vt_agBOT/src/joystick_input/msg/AckermannDrive.msg -Ijoy_input:/home/senoa95/vt_agBOT/src/joystick_input/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Imove_base_msgs:/opt/ros/kinetic/share/move_base_msgs/cmake/../msg -Iactionlib:/opt/ros/kinetic/share/actionlib/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p joy_input -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg
+
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/latlon.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/latlon.l: /home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from joy_input/latlon.msg"
+	cd /home/senoa95/vt_agBOT/build/joystick_input && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/senoa95/vt_agBOT/src/joystick_input/msg/latlon.msg -Ijoy_input:/home/senoa95/vt_agBOT/src/joystick_input/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Imove_base_msgs:/opt/ros/kinetic/share/move_base_msgs/cmake/../msg -Iactionlib:/opt/ros/kinetic/share/actionlib/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p joy_input -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg
+
+/home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/senoa95/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for joy_input"
+	cd /home/senoa95/vt_agBOT/build/joystick_input && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input joy_input std_msgs move_base_msgs actionlib
+
+joy_input_generate_messages_eus: joystick_input/CMakeFiles/joy_input_generate_messages_eus
+joy_input_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/AckermannDrive.l
+joy_input_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/msg/latlon.l
+joy_input_generate_messages_eus: /home/senoa95/vt_agBOT/devel/share/roseus/ros/joy_input/manifest.l
+>>>>>>> origin/sena
 joy_input_generate_messages_eus: joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/build.make
 
 .PHONY : joy_input_generate_messages_eus
@@ -79,10 +112,18 @@ joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/build: joy_input_g
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/build
 
 joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/clean
 
 joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/joystick_input /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/joystick_input /home/agcommand/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_generate_messages_eus.dir/cmake_clean.cmake
+.PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/clean
+
+joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/joystick_input /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/joystick_input /home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/depend
 

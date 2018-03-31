@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 prefix=/home/agcommand/vt_agBOT/install
+=======
+prefix=/home/senoa95/vt_agBOT/install
+>>>>>>> origin/sena
 
 Name: hector_gazebo_thermal_camera
 Description: Description of hector_gazebo_thermal_camera
 Version: 0.5.0
+<<<<<<< HEAD
 Cflags: -I/home/agcommand/vt_agBOT/install/include
 Libs: -L/home/agcommand/vt_agBOT/install/lib 
+=======
+Cflags: -I/home/senoa95/vt_agBOT/install/include
+Libs: -L/home/senoa95/vt_agBOT/install/lib 
+>>>>>>> origin/sena
 Requires: gazebo_plugins

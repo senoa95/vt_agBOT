@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for trajectory_msgs_generate_messages_eus.
 
@@ -63,10 +70,18 @@ hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_m
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean
 
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_thermal_camera /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_eus.dir/cmake_clean.cmake
+.PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean
+
+hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_thermal_camera /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend
 

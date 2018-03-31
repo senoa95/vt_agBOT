@@ -1,7 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_gazebo_plugins_generate_messages_eus"
+<<<<<<< HEAD
   "/home/agcommand/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l"
   "/home/agcommand/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l"
+=======
+  "/home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l"
+  "/home/senoa95/vt_agBOT/devel/share/roseus/ros/hector_gazebo_plugins/manifest.l"
+>>>>>>> origin/sena
 )
 
 # Per-language clean rules from dependency scanning.

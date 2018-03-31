@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for joy_input_generate_messages.
 
@@ -63,10 +70,18 @@ joystick_input/CMakeFiles/joy_input_generate_messages.dir/build: joy_input_gener
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages.dir/build
 
 joystick_input/CMakeFiles/joy_input_generate_messages.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_generate_messages.dir/cmake_clean.cmake
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages.dir/clean
 
 joystick_input/CMakeFiles/joy_input_generate_messages.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/joystick_input /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/joystick_input /home/agcommand/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_generate_messages.dir/cmake_clean.cmake
+.PHONY : joystick_input/CMakeFiles/joy_input_generate_messages.dir/clean
+
+joystick_input/CMakeFiles/joy_input_generate_messages.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/joystick_input /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/joystick_input /home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : joystick_input/CMakeFiles/joy_input_generate_messages.dir/depend
 

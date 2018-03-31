@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 prefix=/home/agcommand/vt_agBOT/install
+=======
+prefix=/home/senoa95/vt_agBOT/install
+>>>>>>> origin/sena
 
 Name: hector_gazebo_worlds
 Description: Description of hector_gazebo_worlds
 Version: 0.5.0
 Cflags: 
+<<<<<<< HEAD
 Libs: -L/home/agcommand/vt_agBOT/install/lib 
+=======
+Libs: -L/home/senoa95/vt_agBOT/install/lib 
+>>>>>>> origin/sena
 Requires: 

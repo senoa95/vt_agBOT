@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +70,18 @@ ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.d
 .PHONY : ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle /home/agcommand/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+.PHONY : ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle /home/senoa95/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

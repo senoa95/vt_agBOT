@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/agcommand/vt_agBOT/install")
+=======
+# Install script for directory: /home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/senoa95/vt_agBOT/install")
+>>>>>>> origin/sena
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,26 +41,46 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_worlds/catkin_generated/installspace/hector_gazebo_worlds.pc")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_worlds/catkin_generated/installspace/hector_gazebo_worlds.pc")
+>>>>>>> origin/sena
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_gazebo_worlds/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_worlds/catkin_generated/installspace/hector_gazebo_worldsConfig.cmake"
     "/home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_worlds/catkin_generated/installspace/hector_gazebo_worldsConfig-version.cmake"
+=======
+    "/home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_worlds/catkin_generated/installspace/hector_gazebo_worldsConfig.cmake"
+    "/home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_worlds/catkin_generated/installspace/hector_gazebo_worldsConfig-version.cmake"
+>>>>>>> origin/sena
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_gazebo_worlds" TYPE FILE FILES "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/package.xml")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_gazebo_worlds" TYPE FILE FILES "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/package.xml")
+>>>>>>> origin/sena
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_gazebo_worlds" TYPE DIRECTORY FILES
+<<<<<<< HEAD
     "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/launch"
     "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/maps"
     "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/Media"
     "/home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/worlds"
+=======
+    "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/launch"
+    "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/maps"
+    "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/Media"
+    "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/worlds"
+>>>>>>> origin/sena
     )
 endif()
 

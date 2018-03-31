@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>catkin</name>
+<<<<<<< HEAD
   <version>0.7.8</version>
+=======
+  <version>0.7.11</version>
+>>>>>>> origin/sena
   <description>Low-level build system macros and infrastructure for ROS.</description>
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>
@@ -23,6 +27,10 @@
 
   <build_depend>python-empy</build_depend>
 
+<<<<<<< HEAD
+=======
+  <build_export_depend>google-mock</build_export_depend>
+>>>>>>> origin/sena
   <build_export_depend>gtest</build_export_depend>
   <build_export_depend>python-empy</build_export_depend>
   <build_export_depend>python-nose</build_export_depend>

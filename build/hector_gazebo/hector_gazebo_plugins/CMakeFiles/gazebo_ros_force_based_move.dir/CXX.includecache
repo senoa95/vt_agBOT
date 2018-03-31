@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_force_based_move.h
+=======
+/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_force_based_move.h
+>>>>>>> origin/sena
 boost/bind.hpp
 -
 boost/thread.hpp
@@ -36,10 +40,77 @@ tf/transform_broadcaster.h
 tf/transform_listener.h
 -
 
+<<<<<<< HEAD
 /home/agcommand/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_force_based_move.cpp
 hector_gazebo_plugins/gazebo_ros_force_based_move.h
 -
 
+=======
+/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_force_based_move.cpp
+hector_gazebo_plugins/gazebo_ros_force_based_move.h
+-
+
+/opt/ros/kinetic/include/boost_161_condition_variable.h
+boost/thread/detail/platform.hpp
+-
+boost/thread/win32/condition_variable.hpp
+-
+boost_161_pthread_condition_variable.h
+/opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
+
+/opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
+boost_161_pthread_condition_variable_fwd.h
+/opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h
+boost/thread/pthread/timespec.hpp
+-
+boost/thread/pthread/pthread_mutex_scoped_lock.hpp
+-
+boost/thread/pthread/thread_data.hpp
+-
+boost/chrono/system_clocks.hpp
+-
+boost/chrono/ceil.hpp
+-
+boost/thread/detail/delete.hpp
+-
+boost/config/abi_prefix.hpp
+-
+boost/config/abi_suffix.hpp
+-
+
+/opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h
+boost/assert.hpp
+-
+boost/throw_exception.hpp
+-
+pthread.h
+-
+boost/thread/cv_status.hpp
+-
+boost/thread/mutex.hpp
+-
+boost/thread/lock_types.hpp
+-
+boost/thread/thread_time.hpp
+-
+boost/thread/pthread/timespec.hpp
+-
+boost/thread/xtime.hpp
+-
+boost/chrono/system_clocks.hpp
+-
+boost/chrono/ceil.hpp
+-
+boost/thread/detail/delete.hpp
+-
+boost/date_time/posix_time/posix_time_duration.hpp
+-
+boost/config/abi_prefix.hpp
+-
+boost/config/abi_suffix.hpp
+-
+
+>>>>>>> origin/sena
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string
 -
@@ -417,6 +488,17 @@ ros/time.h
 /opt/ros/kinetic/include/ros/ros/time.h
 
 /opt/ros/kinetic/include/ros/callback_queue.h
+<<<<<<< HEAD
+=======
+boost/version.hpp
+-
+boost_161_condition_variable.h
+/opt/ros/kinetic/include/ros/boost_161_condition_variable.h
+boost/thread/condition_variable.hpp
+-
+boost/thread/condition_variable.hpp
+-
+>>>>>>> origin/sena
 ros/callback_queue_interface.h
 /opt/ros/kinetic/include/ros/ros/callback_queue_interface.h
 ros/time.h
@@ -429,8 +511,11 @@ boost/thread/mutex.hpp
 -
 boost/thread/shared_mutex.hpp
 -
+<<<<<<< HEAD
 boost/thread/condition_variable.hpp
 -
+=======
+>>>>>>> origin/sena
 boost/thread/tss.hpp
 -
 list

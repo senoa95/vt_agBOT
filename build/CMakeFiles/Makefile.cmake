@@ -39,6 +39,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "joystick_input/catkin_generated/ordered_paths.cmake"
   "joystick_input/catkin_generated/package.cmake"
   "joystick_input/cmake/joy_input-genmsg.cmake"
+<<<<<<< HEAD
   "/home/agcommand/vt_agBOT/devel/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins-msg-paths.cmake"
   "/home/agcommand/vt_agBOT/devel/share/joy_input/cmake/joy_input-msg-extras.cmake"
   "/home/agcommand/vt_agBOT/devel/share/joy_input/cmake/joy_input-msg-paths.cmake"
@@ -72,6 +73,41 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/agcommand/vt_agBOT/src/joy_translate/setup.py"
   "/home/agcommand/vt_agBOT/src/joystick_input/CMakeLists.txt"
   "/home/agcommand/vt_agBOT/src/joystick_input/package.xml"
+=======
+  "/home/senoa95/vt_agBOT/devel/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins-msg-paths.cmake"
+  "/home/senoa95/vt_agBOT/devel/share/joy_input/cmake/joy_input-msg-extras.cmake"
+  "/home/senoa95/vt_agBOT/devel/share/joy_input/cmake/joy_input-msg-paths.cmake"
+  "/home/senoa95/vt_agBOT/devel/share/joy_input/cmake/joy_inputConfig-version.cmake"
+  "/home/senoa95/vt_agBOT/devel/share/joy_input/cmake/joy_inputConfig.cmake"
+  "/home/senoa95/vt_agBOT/src/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle/package.xml"
+  "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description/package.xml"
+  "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_gazebo/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_gazebo/package.xml"
+  "/home/senoa95/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_gazebo/scripts/ackermann_controller"
+  "/home/senoa95/vt_agBOT/src/agbot_nav/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/agbot_nav/package.xml"
+  "/home/senoa95/vt_agBOT/src/gps_imu_translate/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/gps_imu_translate/package.xml"
+  "/home/senoa95/vt_agBOT/src/gps_imu_translate/setup.py"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo/package.xml"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_plugins/package.xml"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_thermal_camera/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_thermal_camera/package.xml"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_gazebo_worlds/package.xml"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_sensors_gazebo/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/hector_gazebo/hector_sensors_gazebo/package.xml"
+  "/home/senoa95/vt_agBOT/src/joy_translate/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/joy_translate/package.xml"
+  "/home/senoa95/vt_agBOT/src/joy_translate/setup.py"
+  "/home/senoa95/vt_agBOT/src/joystick_input/CMakeLists.txt"
+  "/home/senoa95/vt_agBOT/src/joystick_input/package.xml"
+>>>>>>> origin/sena
   "/opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-paths.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake"
@@ -372,6 +408,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/UnixPaths.cmake"
+<<<<<<< HEAD
+=======
+  "/usr/src/gmock/CMakeLists.txt"
+>>>>>>> origin/sena
   "/usr/src/gtest/CMakeLists.txt"
   "/usr/src/gtest/cmake/internal_utils.cmake"
   )
@@ -406,6 +446,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/metapackages/hector_gazebo/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
+<<<<<<< HEAD
+=======
+  "gtest/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
+>>>>>>> origin/sena
   "ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ackermann_vehicle-1/ackermann_vehicle_description/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ackermann_vehicle-1/ackermann_vehicle_gazebo/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -427,10 +471,20 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/download_extra_data.dir/DependInfo.cmake"
   "CMakeFiles/tests.dir/DependInfo.cmake"
   "CMakeFiles/doxygen.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/joy_input.dir/DependInfo.cmake"
+=======
+  "gtest/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "gtest/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "ackermann_vehicle-1/ackermann_vehicle/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
+  "joystick_input/CMakeFiles/joy_input.dir/DependInfo.cmake"
+  "joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/DependInfo.cmake"
+>>>>>>> origin/sena
   "joystick_input/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
@@ -449,7 +503,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "joystick_input/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/DependInfo.cmake"
+=======
+>>>>>>> origin/sena
   "joystick_input/CMakeFiles/joy_input_generate_messages_eus.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake"
@@ -475,6 +532,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "joystick_input/CMakeFiles/joy_input_generate_messages_nodejs.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/DependInfo.cmake"
+<<<<<<< HEAD
+=======
+  "joystick_input/CMakeFiles/_joy_input_generate_messages_check_deps_latlon.dir/DependInfo.cmake"
+>>>>>>> origin/sena
   "joystick_input/CMakeFiles/joy_input_generate_messages_cpp.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/joy_input_genlisp.dir/DependInfo.cmake"
   "joystick_input/CMakeFiles/joy_input_gennodejs.dir/DependInfo.cmake"

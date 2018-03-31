@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/agcommand/vt_agBOT/src/joystick_input/src/joy_input.cpp" "/home/agcommand/vt_agBOT/build/joystick_input/CMakeFiles/joy_input.dir/src/joy_input.cpp.o"
+=======
+  "/home/senoa95/vt_agBOT/src/joystick_input/src/joy_input.cpp" "/home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/joy_input.dir/src/joy_input.cpp.o"
+>>>>>>> origin/sena
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +21,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+<<<<<<< HEAD
   "/home/agcommand/vt_agBOT/devel/include"
+=======
+  "/home/senoa95/vt_agBOT/devel/include"
+>>>>>>> origin/sena
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -19,6 +19,7 @@ void headingCallback(const sensor_msgs::Imu& data)
   tf::Quaternion quater;
   tf::quaternionMsgToTF(data.orientation,quater);
   tf::Matrix3x3(quater).getRPY(roll,pitch,yaw);
+  yaw = angles::normalize_angle_positive(yaw);
 }
 
 void XYZcallback(const geometry_msgs::Pose& data)
@@ -33,8 +34,8 @@ int main(int argc, char **argv)
 {
   // Point currentPoint(x,y,yaw);
   // Point goalPoint(7.0,10.0,pi/2);
-  AckermannVehicle mule(10,45*pi/180);
-  PPController senaPurePursuit(1.5);
+  AckermannVehicle mule(10,60*pi/180,1);
+  PPController senaPurePursuit(0);
   // double turningRadius = senaPurePursuit.turningRadius;
   // double steeringAngle = senaPurePursuit.steeringAngle;
   // double forwardVelocity = senaPurePursuit.forwardVelocity;
@@ -45,14 +46,16 @@ int main(int argc, char **argv)
   ros::NodeHandle ppcontroller;
 
   ros::Publisher adPub = ppcontroller.advertise<joy_input::AckermannDrive>("/ackermann_cmd", 1000, true);
-  ros::Subscriber fix = ppcontroller.subscribe("imu/data",1000,headingCallback);
+  ros::Subscriber heading = ppcontroller.subscribe("imu/data",1000,headingCallback);
   ros::Subscriber xyz = ppcontroller.subscribe ("/agBOT/Local/Pose",1000,XYZcallback);
   // ros::Publisher velocity_pub = ppcontroller.advertise<std_msgs::float64>("/forwardVelocity",1000, true);
+
+  ros::Rate r(2);
 
   while (ros::ok())
   {
     Point currentPoint(x,y,yaw);
-    Point goalPoint(7.0,10.0,pi/2);
+    Point goalPoint(3,2,1.57);
 
 
     // Recompute turningRadius , steeringAngle and velocity for current start and goal point:
@@ -66,8 +69,13 @@ int main(int argc, char **argv)
     firstCommand.speed = senaPurePursuit.forwardVelocity;
 
     adPub.publish(firstCommand);
+    cout<<yaw<<endl;
 
     ros::spinOnce();
+
+    r.sleep();
+
+
 
 }
   return 0;

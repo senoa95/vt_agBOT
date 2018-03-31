@@ -4,5 +4,9 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "gps_imu_translate"
+<<<<<<< HEAD
 PROJECT_SPACE_DIR = "/home/agcommand/vt_agBOT/devel"
+=======
+PROJECT_SPACE_DIR = "/home/senoa95/vt_agBOT/devel"
+>>>>>>> origin/sena
 PROJECT_VERSION = "0.0.0"

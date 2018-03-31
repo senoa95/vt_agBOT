@@ -7,7 +7,15 @@
 # new environment variables
 
 # modified environment variables
+<<<<<<< HEAD
 export CMAKE_PREFIX_PATH="/home/agcommand/vt_agBOT/devel:$CMAKE_PREFIX_PATH"
 export PWD="/home/agcommand/vt_agBOT/build"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/agcommand/vt_agBOT/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/agcommand/vt_agBOT/src:$ROS_PACKAGE_PATH"
+=======
+export CMAKE_PREFIX_PATH="/home/senoa95/vt_agBOT/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/usr/local/cuda-9.0/lib64"
+export PWD="/home/senoa95/vt_agBOT/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/senoa95/vt_agBOT/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/senoa95/vt_agBOT/src:$ROS_PACKAGE_PATH"
+>>>>>>> origin/sena

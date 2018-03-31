@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 prefix=/home/agcommand/vt_agBOT/devel
+=======
+prefix=/home/senoa95/vt_agBOT/devel
+>>>>>>> origin/sena
 
 Name: gps_imu_translate
 Description: Description of gps_imu_translate
 Version: 0.0.0
 Cflags: 
+<<<<<<< HEAD
 Libs: -L/home/agcommand/vt_agBOT/devel/lib 
+=======
+Libs: -L/home/senoa95/vt_agBOT/devel/lib 
+>>>>>>> origin/sena
 Requires: 

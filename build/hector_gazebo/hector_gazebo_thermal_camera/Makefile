@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +142,24 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/agcommand/vt_agBOT/build/CMakeFiles /home/agcommand/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/progress.marks
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/agcommand/vt_agBOT/build/CMakeFiles 0
+=======
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles /home/senoa95/vt_agBOT/build/hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/progress.marks
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles 0
+>>>>>>> origin/sena
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/clean
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/clean
+>>>>>>> origin/sena
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +169,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/preinstall
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/preinstall
+>>>>>>> origin/sena
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/preinstall
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/preinstall
+>>>>>>> origin/sena
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> origin/sena
 .PHONY : depend
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/rule
 
 # Convenience name for target.
@@ -177,12 +210,20 @@ gazebo_ros_thermal_depth_camera: hector_gazebo/hector_gazebo_thermal_camera/CMak
 
 # fast build rule for target.
 gazebo_ros_thermal_depth_camera/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_ros_thermal_depth_camera/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -192,12 +233,20 @@ trajectory_msgs_generate_messages_nodejs: hector_gazebo/hector_gazebo_thermal_ca
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +256,20 @@ trajectory_msgs_generate_messages_cpp: hector_gazebo/hector_gazebo_thermal_camer
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -222,12 +279,20 @@ nodelet_generate_messages_eus: hector_gazebo/hector_gazebo_thermal_camera/CMakeF
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -237,12 +302,20 @@ nodelet_generate_messages_py: hector_gazebo/hector_gazebo_thermal_camera/CMakeFi
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -252,12 +325,20 @@ gazebo_msgs_generate_messages_lisp: hector_gazebo/hector_gazebo_thermal_camera/C
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +348,20 @@ bond_generate_messages_cpp: hector_gazebo/hector_gazebo_thermal_camera/CMakeFile
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -282,12 +371,20 @@ gazebo_msgs_generate_messages_nodejs: hector_gazebo/hector_gazebo_thermal_camera
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/rule
 
 # Convenience name for target.
@@ -297,12 +394,20 @@ gazebo_plugins_gencfg: hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gaz
 
 # fast build rule for target.
 gazebo_plugins_gencfg/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_plugins_gencfg.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_plugins_gencfg/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +417,20 @@ gazebo_msgs_generate_messages_cpp: hector_gazebo/hector_gazebo_thermal_camera/CM
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -327,12 +440,20 @@ gazebo_msgs_generate_messages_py: hector_gazebo/hector_gazebo_thermal_camera/CMa
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -342,12 +463,20 @@ gazebo_msgs_generate_messages_eus: hector_gazebo/hector_gazebo_thermal_camera/CM
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +486,20 @@ trajectory_msgs_generate_messages_lisp: hector_gazebo/hector_gazebo_thermal_came
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -372,12 +509,20 @@ trajectory_msgs_generate_messages_py: hector_gazebo/hector_gazebo_thermal_camera
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -387,12 +532,20 @@ nodelet_generate_messages_lisp: hector_gazebo/hector_gazebo_thermal_camera/CMake
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -402,12 +555,20 @@ bond_generate_messages_nodejs: hector_gazebo/hector_gazebo_thermal_camera/CMakeF
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -417,12 +578,20 @@ nodelet_generate_messages_nodejs: hector_gazebo/hector_gazebo_thermal_camera/CMa
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+>>>>>>> origin/sena
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -432,12 +601,20 @@ nodelet_generate_messages_cpp: hector_gazebo/hector_gazebo_thermal_camera/CMakeF
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+>>>>>>> origin/sena
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -447,12 +624,20 @@ trajectory_msgs_generate_messages_eus: hector_gazebo/hector_gazebo_thermal_camer
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/rule
 
 # Convenience name for target.
@@ -462,12 +647,20 @@ gazebo_ros_thermal_camera: hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles
 
 # fast build rule for target.
 gazebo_ros_thermal_camera/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build
+>>>>>>> origin/sena
 .PHONY : gazebo_ros_thermal_camera/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -477,12 +670,20 @@ bond_generate_messages_lisp: hector_gazebo/hector_gazebo_thermal_camera/CMakeFil
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
+>>>>>>> origin/sena
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -492,12 +693,20 @@ bond_generate_messages_eus: hector_gazebo/hector_gazebo_thermal_camera/CMakeFile
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_eus.dir/build
+>>>>>>> origin/sena
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/rule
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/rule
+>>>>>>> origin/sena
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -507,7 +716,11 @@ bond_generate_messages_py: hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/build
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/bond_generate_messages_py.dir/build
+>>>>>>> origin/sena
 .PHONY : bond_generate_messages_py/fast
 
 src/gazebo_ros_thermal_camera_plugin.o: src/gazebo_ros_thermal_camera_plugin.cpp.o
@@ -516,7 +729,11 @@ src/gazebo_ros_thermal_camera_plugin.o: src/gazebo_ros_thermal_camera_plugin.cpp
 
 # target to build an object file
 src/gazebo_ros_thermal_camera_plugin.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_thermal_camera_plugin.cpp.o
 
 src/gazebo_ros_thermal_camera_plugin.i: src/gazebo_ros_thermal_camera_plugin.cpp.i
@@ -525,7 +742,11 @@ src/gazebo_ros_thermal_camera_plugin.i: src/gazebo_ros_thermal_camera_plugin.cpp
 
 # target to preprocess a source file
 src/gazebo_ros_thermal_camera_plugin.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_thermal_camera_plugin.cpp.i
 
 src/gazebo_ros_thermal_camera_plugin.s: src/gazebo_ros_thermal_camera_plugin.cpp.s
@@ -534,7 +755,11 @@ src/gazebo_ros_thermal_camera_plugin.s: src/gazebo_ros_thermal_camera_plugin.cpp
 
 # target to generate assembly for a file
 src/gazebo_ros_thermal_camera_plugin.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_thermal_camera_plugin.cpp.s
 
 src/gazebo_ros_thermal_depth_camera_plugin.o: src/gazebo_ros_thermal_depth_camera_plugin.cpp.o
@@ -543,7 +768,11 @@ src/gazebo_ros_thermal_depth_camera_plugin.o: src/gazebo_ros_thermal_depth_camer
 
 # target to build an object file
 src/gazebo_ros_thermal_depth_camera_plugin.cpp.o:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_thermal_depth_camera_plugin.cpp.o
 
 src/gazebo_ros_thermal_depth_camera_plugin.i: src/gazebo_ros_thermal_depth_camera_plugin.cpp.i
@@ -552,7 +781,11 @@ src/gazebo_ros_thermal_depth_camera_plugin.i: src/gazebo_ros_thermal_depth_camer
 
 # target to preprocess a source file
 src/gazebo_ros_thermal_depth_camera_plugin.cpp.i:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.i
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.i
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_thermal_depth_camera_plugin.cpp.i
 
 src/gazebo_ros_thermal_depth_camera_plugin.s: src/gazebo_ros_thermal_depth_camera_plugin.cpp.s
@@ -561,7 +794,11 @@ src/gazebo_ros_thermal_depth_camera_plugin.s: src/gazebo_ros_thermal_depth_camer
 
 # target to generate assembly for a file
 src/gazebo_ros_thermal_depth_camera_plugin.cpp.s:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.s
+=======
+	cd /home/senoa95/vt_agBOT/build && $(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.s
+>>>>>>> origin/sena
 .PHONY : src/gazebo_ros_thermal_depth_camera_plugin.cpp.s
 
 # Help Target
@@ -617,6 +854,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> origin/sena
 .PHONY : cmake_check_build_system
 

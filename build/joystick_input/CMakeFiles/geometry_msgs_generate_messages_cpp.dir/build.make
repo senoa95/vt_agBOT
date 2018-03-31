@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -63,10 +70,18 @@ joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build: geometr
 .PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 
 joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+<<<<<<< HEAD
 	cd /home/agcommand/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
 	cd /home/agcommand/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agcommand/vt_agBOT/src /home/agcommand/vt_agBOT/src/joystick_input /home/agcommand/vt_agBOT/build /home/agcommand/vt_agBOT/build/joystick_input /home/agcommand/vt_agBOT/build/joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/senoa95/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+.PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
+	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/joystick_input /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/joystick_input /home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> origin/sena
 .PHONY : joystick_input/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

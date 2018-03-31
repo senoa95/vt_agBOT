@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/agcommand/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agcommand/vt_agBOT/build
+=======
+CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+>>>>>>> origin/sena
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +142,15 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/agcommand/vt_agBOT/build/CMakeFiles /home/agcommand/vt_agBOT/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/agcommand/vt_agBOT/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles /home/senoa95/vt_agBOT/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/senoa95/vt_agBOT/build/CMakeFiles 0
+>>>>>>> origin/sena
 .PHONY : all
 
 # The main clean target
@@ -231,6 +244,35 @@ doxygen/fast:
 .PHONY : doxygen/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+>>>>>>> origin/sena
 # Target rules for targets named gtest
 
 # Build rule for target.
@@ -240,7 +282,11 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
+<<<<<<< HEAD
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+=======
+	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
+>>>>>>> origin/sena
 .PHONY : gtest/fast
 
 #=============================================================================
@@ -253,7 +299,11 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
+<<<<<<< HEAD
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+=======
+	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
+>>>>>>> origin/sena
 .PHONY : gtest_main/fast
 
 #=============================================================================
@@ -283,6 +333,22 @@ joy_input/fast:
 .PHONY : joy_input/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named joy_input_generate_messages_py
+
+# Build rule for target.
+joy_input_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 joy_input_generate_messages_py
+.PHONY : joy_input_generate_messages_py
+
+# fast build rule for target.
+joy_input_generate_messages_py/fast:
+	$(MAKE) -f joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/build.make joystick_input/CMakeFiles/joy_input_generate_messages_py.dir/build
+.PHONY : joy_input_generate_messages_py/fast
+
+#=============================================================================
+>>>>>>> origin/sena
 # Target rules for targets named actionlib_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -517,6 +583,7 @@ roscpp_generate_messages_eus/fast:
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named joy_input_generate_messages_py
 
 # Build rule for target.
@@ -530,6 +597,8 @@ joy_input_generate_messages_py/fast:
 .PHONY : joy_input_generate_messages_py/fast
 
 #=============================================================================
+=======
+>>>>>>> origin/sena
 # Target rules for targets named joy_input_generate_messages_eus
 
 # Build rule for target.
@@ -855,6 +924,22 @@ actionlib_msgs_generate_messages_eus/fast:
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named _joy_input_generate_messages_check_deps_latlon
+
+# Build rule for target.
+_joy_input_generate_messages_check_deps_latlon: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _joy_input_generate_messages_check_deps_latlon
+.PHONY : _joy_input_generate_messages_check_deps_latlon
+
+# fast build rule for target.
+_joy_input_generate_messages_check_deps_latlon/fast:
+	$(MAKE) -f joystick_input/CMakeFiles/_joy_input_generate_messages_check_deps_latlon.dir/build.make joystick_input/CMakeFiles/_joy_input_generate_messages_check_deps_latlon.dir/build
+.PHONY : _joy_input_generate_messages_check_deps_latlon/fast
+
+#=============================================================================
+>>>>>>> origin/sena
 # Target rules for targets named joy_input_generate_messages_cpp
 
 # Build rule for target.
@@ -1912,10 +1997,19 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... test"
+<<<<<<< HEAD
+=======
+	@echo "... gmock"
+	@echo "... gmock_main"
+>>>>>>> origin/sena
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... joy_input"
+<<<<<<< HEAD
+=======
+	@echo "... joy_input_generate_messages_py"
+>>>>>>> origin/sena
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -1934,7 +2028,10 @@ help:
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
+<<<<<<< HEAD
 	@echo "... joy_input_generate_messages_py"
+=======
+>>>>>>> origin/sena
 	@echo "... joy_input_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
@@ -1960,6 +2057,10 @@ help:
 	@echo "... joy_input_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_eus"
+<<<<<<< HEAD
+=======
+	@echo "... _joy_input_generate_messages_check_deps_latlon"
+>>>>>>> origin/sena
 	@echo "... joy_input_generate_messages_cpp"
 	@echo "... joy_input_genlisp"
 	@echo "... joy_input_gennodejs"
