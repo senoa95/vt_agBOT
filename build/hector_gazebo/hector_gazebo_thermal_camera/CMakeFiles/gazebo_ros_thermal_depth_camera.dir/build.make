@@ -120,15 +120,6 @@ gazebo_ros_thermal_depth_camera_EXTERNAL_OBJECTS =
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libvision_reconfigure.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libgazebo_ros_utils.so
@@ -220,9 +211,6 @@ gazebo_ros_thermal_depth_camera_EXTERNAL_OBJECTS =
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libvision_reconfigure.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libgazebo_ros_utils.so
 /home/senoa95/vt_agBOT/devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libgazebo_ros_camera_utils.so

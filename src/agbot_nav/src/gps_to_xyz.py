@@ -35,7 +35,7 @@ def conv_callback(data):
 
     if not iniSet:
 
-        iniX,iniY, zoneNum , char = utm.from_latlon(data.latitude, data.longitude)
+        iniY,iniX, zoneNum , char = utm.from_latlon(data.latitude, data.longitude)
 
         z = data.altitude
 
@@ -43,7 +43,7 @@ def conv_callback(data):
 
     else:
 
-        xUTM,yUTM, zoneNum , char = utm.from_latlon(data.latitude, data.longitude)
+        yUTM,xUTM, zoneNum , char = utm.from_latlon(data.latitude, data.longitude)
 
         x = xUTM - iniX
         y=  yUTM - iniY

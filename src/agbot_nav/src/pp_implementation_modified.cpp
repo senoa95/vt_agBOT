@@ -8,6 +8,7 @@ using namespace std;
 #include <angles/angles.h>
 #include "sensor_msgs/Imu.h"
 #include "geometry_msgs/Pose.h"
+#include "math.h"
 
 double roll, pitch, yaw = 0;
 double x = 0;
@@ -51,17 +52,67 @@ int main(int argc, char **argv)
   // ros::Publisher velocity_pub = ppcontroller.advertise<std_msgs::float64>("/forwardVelocity",1000, true);
 
   ros::Rate r(2);
+  double euclideanError = 0;
+  double threshold = 1;
+  bool recompute;
+
+  Point goalPoint(0.0,0.0,0.0);
 
   while (ros::ok())
   {
+    double goX;
+    double goY;
+    double goHeading;
     Point currentPoint(x,y,yaw);
-    Point goalPoint(3,2,1.57);
+
+    // Point goalPoint(goX,goY,goHeading);
 
 
-    // Recompute turningRadius , steeringAngle and velocity for current start and goal point:
-    senaPurePursuit.compute_turning_radius(currentPoint, goalPoint);
-    senaPurePursuit.compute_steering_angle();
-    senaPurePursuit.compute_forward_velocity();
+    // Loop until user enters the new targets:
+    while (euclideanError < threshold)
+    {
+      cout<<"Enter next x";
+      cin >> goX;
+      cout<<"Enter next y";
+      cin >> goY;
+      cout<<"Enter next heading";
+      cin >> goHeading;
+
+      goalPoint.x = goX;
+      goalPoint.y = goY;
+      goalPoint.heading = goHeading;
+
+
+      // cout<<" Goal x is:"<<goalPoint.x<<endl;
+      // cout<<" Goal y is:"<<goalPoint.y<<endl;
+
+
+      euclideanError = sqrt((pow((goalPoint.x-currentPoint.x),2) + pow((goalPoint.y-currentPoint.y),2)));
+
+
+      recompute = true;
+
+
+    }
+
+
+    // Recompute Euclidean error:
+    euclideanError = sqrt((pow((goalPoint.x-currentPoint.x),2) + pow((goalPoint.y-currentPoint.y),2)));
+    cout<<euclideanError<<endl;
+
+    cout<<" Recompute is: "<<recompute<<endl;
+    // Update
+    if (euclideanError > threshold && recompute)
+    {
+      // Compute turningRadius , steeringAngle and velocity for current start and goal point:
+      senaPurePursuit.compute_turning_radius(currentPoint, goalPoint);
+      senaPurePursuit.compute_steering_angle();
+      senaPurePursuit.compute_forward_velocity();
+
+      recompute = false;
+      cout<<" Inside if .."<<endl;
+
+    }
 
 
     joy_input::AckermannDrive firstCommand;
@@ -69,7 +120,7 @@ int main(int argc, char **argv)
     firstCommand.speed = senaPurePursuit.forwardVelocity;
 
     adPub.publish(firstCommand);
-    cout<<yaw<<endl;
+    //cout<<yaw<<endl;
 
     ros::spinOnce();
 
@@ -77,6 +128,7 @@ int main(int argc, char **argv)
 
 
 
-}
-  return 0;
+
+  // return 0;
 };
+}

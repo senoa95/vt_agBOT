@@ -30,7 +30,7 @@ double minTurningRadius;
 double maximumSteeringAngle;
 double maximumVelocity;
 
-AckermannVehicle(double inputLength = 1.0, double inputMaximumSteeringAngle = 45*pi/180, double inputMaximumVelocity = 2)
+AckermannVehicle(double inputLength = 1.0, double inputMaximumSteeringAngle = 60*pi/180, double inputMaximumVelocity = 2)
 {
   length = inputLength;
   maximumSteeringAngle = inputMaximumSteeringAngle;
@@ -76,7 +76,7 @@ void compute_forward_velocity()  //added a variable velocity based on Bijo's sug
 {
 
   // forwardVelocity = mule.maximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));  //this specifies the forward velocity at a given steering angle
-  forwardVelocity = 0.5;
+  forwardVelocity = 0.25;
 }
 
 };

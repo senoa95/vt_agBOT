@@ -41,6 +41,8 @@ sensor_msgs/Imu.h
 /home/senoa95/vt_agBOT/src/agbot_nav/src/sensor_msgs/Imu.h
 geometry_msgs/Pose.h
 /home/senoa95/vt_agBOT/src/agbot_nav/src/geometry_msgs/Pose.h
+math.h
+/home/senoa95/vt_agBOT/src/agbot_nav/src/math.h
 
 /home/senoa95/vt_agBOT/src/agbot_nav/src/utilities_modified.h
 cmath
