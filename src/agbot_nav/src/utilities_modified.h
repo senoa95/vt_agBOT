@@ -1,5 +1,6 @@
 #ifndef UTILITIES_H
 #define UTILITIES_H
+using namespace std;
 #include <cmath>
 
 const double pi = 3.141592653589793238;
@@ -44,6 +45,7 @@ class PPController
 public:
 
   double leadDistance;
+  double alpha;
   Point current;
   Point goal;
   double turningRadius;
@@ -62,21 +64,24 @@ void compute_turning_radius(Point inputCurrent = Point(0.0,0.0,0.0), Point input
   current = inputCurrent;
   goal = inputGoal;
   double beta = atan2((goal.y - current.y),(goal.x-current.y)); //angle between line joining start-end and x axis
-  double alpha = current.heading - beta; //angle between current heading and the line joining start-end
+  double temp = ((current.heading +  3.14));
+  temp = (std::fmod(temp , 2*3.14)) - 3.14;
+  alpha = temp - beta; //angle between current heading and the line joining start-end
   double euclideanDistance = sqrt(pow((goal.x - current.x),2) + pow((goal.y-current.y),2));
   turningRadius = euclideanDistance / (2*sin(alpha));   //this outputs the turning radius
 }
 
 void compute_steering_angle()
 {
-  steeringAngle = atan(mule.length / turningRadius);
+  steeringAngle = 0.7*sin(alpha)*mule.length;
+  // steeringAngle = atan(mule.length / turningRadius);
 }
 
 void compute_forward_velocity()  //added a variable velocity based on Bijo's suggestion
 {
 
   // forwardVelocity = mule.maximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));  //this specifies the forward velocity at a given steering angle
-  forwardVelocity = 0.25;
+  forwardVelocity = 0.1;
 }
 
 };

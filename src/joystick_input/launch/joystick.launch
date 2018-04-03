@@ -2,7 +2,7 @@
 
   <!-- Joystick low level driver -->
   <node name="joy_node" pkg="joy" type="joy_node" output="screen" respawn="true"/>
-  
+
   <!-- Joystick input node -->
   <node name="joy_input" pkg="joy_input" type="joy_input" output="screen" respawn="true">
     <param name="/enable_joystick"          value="1" />    <!-- Set to 0 to disable joystick as an input -->
@@ -50,5 +50,5 @@
     <param name="/target_4_w"         value="1.00" />
 
   </node>
-  
+
 </launch>

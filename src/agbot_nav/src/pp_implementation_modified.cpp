@@ -53,7 +53,7 @@ int main(int argc, char **argv)
 
   ros::Rate r(2);
   double euclideanError = 0;
-  double threshold = 1;
+  double threshold = 0.5;
   bool recompute;
 
   Point goalPoint(0.0,0.0,0.0);
@@ -83,12 +83,14 @@ int main(int argc, char **argv)
       goalPoint.heading = goHeading;
 
 
+      senaPurePursuit.compute_turning_radius(currentPoint, goalPoint);
+      senaPurePursuit.compute_steering_angle();
+
       // cout<<" Goal x is:"<<goalPoint.x<<endl;
       // cout<<" Goal y is:"<<goalPoint.y<<endl;
 
 
       euclideanError = sqrt((pow((goalPoint.x-currentPoint.x),2) + pow((goalPoint.y-currentPoint.y),2)));
-
 
       recompute = true;
 
@@ -98,11 +100,11 @@ int main(int argc, char **argv)
 
     // Recompute Euclidean error:
     euclideanError = sqrt((pow((goalPoint.x-currentPoint.x),2) + pow((goalPoint.y-currentPoint.y),2)));
-    cout<<euclideanError<<endl;
+    // cout<<euclideanError<<endl;
 
-    cout<<" Recompute is: "<<recompute<<endl;
+    // cout<<" Recompute is: "<<recompute<<endl;
     // Update
-    if (euclideanError > threshold && recompute)
+    if (euclideanError > threshold)
     {
       // Compute turningRadius , steeringAngle and velocity for current start and goal point:
       senaPurePursuit.compute_turning_radius(currentPoint, goalPoint);
@@ -110,7 +112,7 @@ int main(int argc, char **argv)
       senaPurePursuit.compute_forward_velocity();
 
       recompute = false;
-      cout<<" Inside if .."<<endl;
+      // cout<<" Inside if .."<<endl;
 
     }
 
@@ -118,6 +120,8 @@ int main(int argc, char **argv)
     joy_input::AckermannDrive firstCommand;
     firstCommand.steering_angle = senaPurePursuit.steeringAngle;
     firstCommand.speed = senaPurePursuit.forwardVelocity;
+
+    cout<<senaPurePursuit.current.heading<<endl;
 
     adPub.publish(firstCommand);
     //cout<<yaw<<endl;
