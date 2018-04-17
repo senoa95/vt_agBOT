@@ -120,7 +120,7 @@ from math import pi
 import rospy
 import tf
 
-from joy_input.msg import AckermannDrive
+from ackermann_msgs.msg import AckermannDrive
 from std_msgs.msg import Float64
 from controller_manager_msgs.srv import ListControllers
 

@@ -81,7 +81,7 @@ void compute_forward_velocity()  //added a variable velocity based on Bijo's sug
 {
 
   // forwardVelocity = mule.maximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));  //this specifies the forward velocity at a given steering angle
-  forwardVelocity = 0.1;
+  forwardVelocity = 2.2;
 }
 
 };

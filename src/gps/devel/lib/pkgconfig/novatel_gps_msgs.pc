@@ -1,8 +1,1 @@
-prefix=/home/senoa95/gps/devel
-
-Name: novatel_gps_msgs
-Description: Description of novatel_gps_msgs
-Version: 3.4.0
-Cflags: -I/home/senoa95/gps/devel/include
-Libs: -L/home/senoa95/gps/devel/lib 
-Requires: message_runtime std_msgs
+/home/senoa95/vt_agBOT/src/gps/devel/.private/novatel_gps_msgs/lib/pkgconfig/novatel_gps_msgs.pc

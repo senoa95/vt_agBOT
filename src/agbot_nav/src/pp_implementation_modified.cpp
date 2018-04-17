@@ -8,6 +8,7 @@ using namespace std;
 #include <angles/angles.h>
 #include "sensor_msgs/Imu.h"
 #include "geometry_msgs/Pose.h"
+#include "geometry_msgs/Point.h"
 #include "math.h"
 
 double roll, pitch, yaw = 0;
@@ -15,19 +16,26 @@ double x = 0;
 double y = 0;
 double z;
 
-void headingCallback(const sensor_msgs::Imu& data)
+// void headingCallback(const sensor_msgs::Imu& data)
+// {
+//   tf::Quaternion quater;
+//   tf::quaternionMsgToTF(data.orientation,quater);
+//   tf::Matrix3x3(quater).getRPY(roll,pitch,yaw);
+//   yaw = angles::normalize_angle_positive(yaw);
+// }
+
+void XYZcallback(const geometry_msgs::Pose& data)
 {
+
+  x = data.position.x;
+  y = data.position.y;
+  z = data.position.z;
+
   tf::Quaternion quater;
   tf::quaternionMsgToTF(data.orientation,quater);
   tf::Matrix3x3(quater).getRPY(roll,pitch,yaw);
   yaw = angles::normalize_angle_positive(yaw);
-}
 
-void XYZcallback(const geometry_msgs::Pose& data)
-{
-  x = data.position.x;
-  y = data.position.y;
-  z = data.position.z;
 }
 
 
@@ -46,9 +54,9 @@ int main(int argc, char **argv)
 
   ros::NodeHandle ppcontroller;
 
-  ros::Publisher adPub = ppcontroller.advertise<joy_input::AckermannDrive>("/ackermann_cmd", 1000, true);
-  ros::Subscriber heading = ppcontroller.subscribe("imu/data",1000,headingCallback);
-  ros::Subscriber xyz = ppcontroller.subscribe ("/agBOT/Local/Pose",1000,XYZcallback);
+  ros::Publisher adPub = ppcontroller.advertise<geometry_msgs::Point>("/agBOT/ackermann_cmd", 1000, true);
+  // ros::Subscriber heading = ppcontroller.subscribe("imu/data",1000,headingCallback);
+  ros::Subscriber xyz = ppcontroller.subscribe ("/agBOT/local/Pose",1000,XYZcallback);
   // ros::Publisher velocity_pub = ppcontroller.advertise<std_msgs::float64>("/forwardVelocity",1000, true);
 
   ros::Rate r(2);
@@ -93,8 +101,6 @@ int main(int argc, char **argv)
       euclideanError = sqrt((pow((goalPoint.x-currentPoint.x),2) + pow((goalPoint.y-currentPoint.y),2)));
 
       recompute = true;
-
-
     }
 
 
@@ -117,13 +123,13 @@ int main(int argc, char **argv)
     }
 
 
-    joy_input::AckermannDrive firstCommand;
-    firstCommand.steering_angle = senaPurePursuit.steeringAngle;
-    firstCommand.speed = senaPurePursuit.forwardVelocity;
+    geometry_msgs::Point command;
+    command.x = senaPurePursuit.steeringAngle;
+    command.y = senaPurePursuit.forwardVelocity;
 
-    cout<<senaPurePursuit.current.heading<<endl;
+    //cout<<senaPurePursuit.current.heading<<endl;
 
-    adPub.publish(firstCommand);
+    adPub.publish(command);
     //cout<<yaw<<endl;
 
     ros::spinOnce();

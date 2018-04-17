@@ -1,0 +1,8 @@
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/./setup.sh
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/./env.sh
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/./_setup_util.py
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/./setup.bash
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/./setup.zsh
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/senoa95/vt_agBOT/src/gps/devel/lib/pkgconfig/catkin_tools_prebuild.pc

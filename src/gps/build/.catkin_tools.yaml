@@ -1,0 +1,6 @@
+devel_space: /home/senoa95/vt_agBOT/src/gps/devel
+install: false
+install_space: /home/senoa95/vt_agBOT/src/gps/install
+profile: default
+source_space: /home/senoa95/vt_agBOT/src/gps/src
+workspace: /home/senoa95/vt_agBOT/src/gps

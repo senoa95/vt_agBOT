@@ -1,10 +1,1 @@
-(cl:in-package novatel_gps_msgs-msg)
-(cl:export '(PRN-VAL
-          PRN
-          ELEVATION-VAL
-          ELEVATION
-          AZIMUTH-VAL
-          AZIMUTH
-          SNR-VAL
-          SNR
-))
+/home/senoa95/vt_agBOT/src/gps/devel/.private/novatel_gps_msgs/share/common-lisp/ros/novatel_gps_msgs/msg/_package_Satellite.lisp

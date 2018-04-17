@@ -1,4 +1,1 @@
-# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
-
-set(novatel_gps_msgs_MSG_INCLUDE_DIRS "/home/senoa95/gps/src/novatel_gps_driver/novatel_gps_msgs/msg")
-set(novatel_gps_msgs_MSG_DEPENDENCIES std_msgs)
+/home/senoa95/vt_agBOT/src/gps/devel/.private/novatel_gps_msgs/share/novatel_gps_msgs/cmake/novatel_gps_msgs-msg-paths.cmake
