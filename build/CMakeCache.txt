@@ -276,24 +276,6 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
-//Value Computed by CMake
-ackermann_vehicle_BINARY_DIR:STATIC=/home/agbot/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle
-
-//Value Computed by CMake
-ackermann_vehicle_SOURCE_DIR:STATIC=/home/agbot/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle
-
-//Value Computed by CMake
-ackermann_vehicle_description_BINARY_DIR:STATIC=/home/agbot/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_description
-
-//Value Computed by CMake
-ackermann_vehicle_description_SOURCE_DIR:STATIC=/home/agbot/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_description
-
-//Value Computed by CMake
-ackermann_vehicle_gazebo_BINARY_DIR:STATIC=/home/agbot/vt_agBOT/build/ackermann_vehicle-1/ackermann_vehicle_gazebo
-
-//Value Computed by CMake
-ackermann_vehicle_gazebo_SOURCE_DIR:STATIC=/home/agbot/vt_agBOT/src/ackermann_vehicle-1/ackermann_vehicle_gazebo
-
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/opt/ros/kinetic/share/actionlib/cmake
 
@@ -365,12 +347,6 @@ gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //The directory containing a CMake configuration file for gps_common.
 gps_common_DIR:PATH=/opt/ros/kinetic/share/gps_common/cmake
-
-//Value Computed by CMake
-gps_imu_translate_BINARY_DIR:STATIC=/home/agbot/vt_agBOT/build/gps_imu_translate
-
-//Value Computed by CMake
-gps_imu_translate_SOURCE_DIR:STATIC=/home/agbot/vt_agBOT/src/gps_imu_translate
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/agbot/vt_agBOT/build/gtest/gtest
