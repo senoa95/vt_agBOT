@@ -1,0 +1,2 @@
+agbot_nav:gps/src/novatel_gps_driver/novatel_gps_driver:gps/src/novatel_gps_driver/novatel_gps_msgs:gps/src/rtk:joy_translate:joystick_input
+-DCATKIN_DEVEL_PREFIX=/home/agbot/vt_agBOT/devel -DCMAKE_INSTALL_PREFIX=/home/agbot/vt_agBOT/install -G Unix Makefiles

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="rtk_node" pkg="rtk" type="rtk.py"/>
+  <include file="$(find novatel_gps_driver)/launch/tester_for_usb.launch"/>
+</launch>
