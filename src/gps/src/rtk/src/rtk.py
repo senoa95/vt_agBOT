@@ -15,9 +15,9 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((TCP_IP, TCP_PORT))
 
 # Open Serial connection
- ser0 = serial.Serial('/dev/ttyUSB0')
- ser1 = serial.Serial('/dev/ttyUSB1')
- ser2 = serial.Serial('/dev/ttyUSB2')
+ser0 = serial.Serial('/dev/ttyUSB0')
+ser1 = serial.Serial('/dev/ttyUSB1')
+ser2 = serial.Serial('/dev/ttyUSB2')
 
 #SETTING UP Novatel to take RTCM correction
 ser0.write('INTERFACEMODE USB1 RTCM NOVATEL ON\r\n')

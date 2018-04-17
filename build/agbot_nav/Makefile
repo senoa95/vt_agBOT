@@ -180,32 +180,32 @@ ackermann_node/fast:
 	cd /home/agbot/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/build
 .PHONY : ackermann_node/fast
 
-src/pp_implementation_modified.o: src/pp_implementation_modified.cpp.o
+src/pp_implementation.o: src/pp_implementation.cpp.o
 
-.PHONY : src/pp_implementation_modified.o
+.PHONY : src/pp_implementation.o
 
 # target to build an object file
-src/pp_implementation_modified.cpp.o:
-	cd /home/agbot/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o
-.PHONY : src/pp_implementation_modified.cpp.o
+src/pp_implementation.cpp.o:
+	cd /home/agbot/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o
+.PHONY : src/pp_implementation.cpp.o
 
-src/pp_implementation_modified.i: src/pp_implementation_modified.cpp.i
+src/pp_implementation.i: src/pp_implementation.cpp.i
 
-.PHONY : src/pp_implementation_modified.i
+.PHONY : src/pp_implementation.i
 
 # target to preprocess a source file
-src/pp_implementation_modified.cpp.i:
-	cd /home/agbot/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.i
-.PHONY : src/pp_implementation_modified.cpp.i
+src/pp_implementation.cpp.i:
+	cd /home/agbot/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.i
+.PHONY : src/pp_implementation.cpp.i
 
-src/pp_implementation_modified.s: src/pp_implementation_modified.cpp.s
+src/pp_implementation.s: src/pp_implementation.cpp.s
 
-.PHONY : src/pp_implementation_modified.s
+.PHONY : src/pp_implementation.s
 
 # target to generate assembly for a file
-src/pp_implementation_modified.cpp.s:
-	cd /home/agbot/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.s
-.PHONY : src/pp_implementation_modified.cpp.s
+src/pp_implementation.cpp.s:
+	cd /home/agbot/vt_agBOT/build && $(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.s
+.PHONY : src/pp_implementation.cpp.s
 
 # Help Target
 help:
@@ -221,9 +221,9 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... src/pp_implementation_modified.o"
-	@echo "... src/pp_implementation_modified.i"
-	@echo "... src/pp_implementation_modified.s"
+	@echo "... src/pp_implementation.o"
+	@echo "... src/pp_implementation.i"
+	@echo "... src/pp_implementation.s"
 .PHONY : help
 
 

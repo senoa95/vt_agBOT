@@ -57,38 +57,38 @@ include agbot_nav/CMakeFiles/ackermann_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include agbot_nav/CMakeFiles/ackermann_node.dir/flags.make
 
-agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o: agbot_nav/CMakeFiles/ackermann_node.dir/flags.make
-agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o: /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agbot/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o"
-	cd /home/agbot/vt_agBOT/build/agbot_nav && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o -c /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp
+agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o: agbot_nav/CMakeFiles/ackermann_node.dir/flags.make
+agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o: /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agbot/vt_agBOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o"
+	cd /home/agbot/vt_agBOT/build/agbot_nav && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o -c /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation.cpp
 
-agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.i"
-	cd /home/agbot/vt_agBOT/build/agbot_nav && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp > CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.i
+agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.i"
+	cd /home/agbot/vt_agBOT/build/agbot_nav && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation.cpp > CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.i
 
-agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.s"
-	cd /home/agbot/vt_agBOT/build/agbot_nav && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp -o CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.s
+agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.s"
+	cd /home/agbot/vt_agBOT/build/agbot_nav && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation.cpp -o CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.s
 
-agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.requires:
+agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.requires:
 
-.PHONY : agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.requires
+.PHONY : agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.requires
 
-agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.provides: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.requires
-	$(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.provides.build
-.PHONY : agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.provides
+agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.provides: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.requires
+	$(MAKE) -f agbot_nav/CMakeFiles/ackermann_node.dir/build.make agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.provides.build
+.PHONY : agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.provides
 
-agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.provides.build: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o
+agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.provides.build: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o
 
 
 # Object files for target ackermann_node
 ackermann_node_OBJECTS = \
-"CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o"
+"CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o"
 
 # External object files for target ackermann_node
 ackermann_node_EXTERNAL_OBJECTS =
 
-/home/agbot/vt_agBOT/devel/lib/agbot_nav/ackermann_node: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o
+/home/agbot/vt_agBOT/devel/lib/agbot_nav/ackermann_node: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o
 /home/agbot/vt_agBOT/devel/lib/agbot_nav/ackermann_node: agbot_nav/CMakeFiles/ackermann_node.dir/build.make
 /home/agbot/vt_agBOT/devel/lib/agbot_nav/ackermann_node: /home/agbot/vt_agBOT/devel/lib/libjoy_input.so
 /home/agbot/vt_agBOT/devel/lib/agbot_nav/ackermann_node: /opt/ros/kinetic/lib/libactionlib.so
@@ -120,7 +120,7 @@ agbot_nav/CMakeFiles/ackermann_node.dir/build: /home/agbot/vt_agBOT/devel/lib/ag
 
 .PHONY : agbot_nav/CMakeFiles/ackermann_node.dir/build
 
-agbot_nav/CMakeFiles/ackermann_node.dir/requires: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation_modified.cpp.o.requires
+agbot_nav/CMakeFiles/ackermann_node.dir/requires: agbot_nav/CMakeFiles/ackermann_node.dir/src/pp_implementation.cpp.o.requires
 
 .PHONY : agbot_nav/CMakeFiles/ackermann_node.dir/requires
 

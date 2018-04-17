@@ -1,14 +1,18 @@
 #ifndef UTILITIES_H
 #define UTILITIES_H
+using namespace std;
 #include <cmath>
 
-const double pi =  3.141592653589793238;
+const double pi = 3.141592653589793238;
+
 // header file for Pure Pursuit
 struct Point
 {
 double x;
 double y;
 double heading;
+
+public:
 
 Point(double inputX = 0.0, double inputY = 0.0, double inputHeading = 0.0)
 {
@@ -18,55 +22,67 @@ heading = inputHeading;
 }
 };
 
-class AckermanVehicle
+class AckermannVehicle
 {
-double length;
-double minTurningRadius;
-double forwardVelocity;
-double steeringAngle;
-double maximumSteeringAngle;
-
 public:
 
-AckermanVehicle(double inputLength = 1.0, double inputMaximumSteeringAngle = 45*pi/180)
+double length;
+double minTurningRadius;
+double maximumSteeringAngle;
+double maximumVelocity;
+
+AckermannVehicle(double inputLength = 1.0, double inputMaximumSteeringAngle = 60*pi/180, double inputMaximumVelocity = 2)
 {
   length = inputLength;
   maximumSteeringAngle = inputMaximumSteeringAngle;
+  maximumVelocity = inputMaximumVelocity;
   minTurningRadius = length / tan(maximumSteeringAngle);
-}
-void drive(double inputVelocity = 0)
-{
-  forwardVelocity = inputVelocity;
-}
-void steering_angle(double radius)
-{
-  steeringAngle = atan(length / radius);
 }
 };
 
 class PPController
 {
-double leadDistance;
-Point start;
-Point end;
-double currentHeading;
-
 public:
+
+  double leadDistance;
+  double alpha;
+  Point current;
+  Point goal;
+  double turningRadius;
+  double steeringAngle;
+  double forwardVelocity;
+  AckermannVehicle mule = (1, 45*pi/180,2);
+
 PPController(double inputLeadDistance = 0.0)
 {
   leadDistance = inputLeadDistance;
-  start = Point(0.0,0.0);
-  end = Point(0.0,0.0);
-  currentHeading = 0.0;
+  double length = mule.length;
 }
-double compute_turning_radius(double currentHeading, Point inputStart = Point(0.0,0.0), Point inputEnd = Point(0.0,0.0))
+
+void compute_turning_radius(Point inputCurrent = Point(0.0,0.0,0.0), Point inputGoal = Point(0.0,0.0,0.0))
 {
-  double beta = atan2((end.y - start.y),(end.x-end.y)); //angle between line joining start-end and x axis
-  double alpha = currentHeading - beta; //angle between current heading and the line joining start-end
-  double euclideanDistance = sqrt(pow((end.x - start.x),2) + pow((end.y-start.y),2));
-  double radius = euclideanDistance / (2*sin(alpha));
-  return radius;
+  current = inputCurrent;
+  goal = inputGoal;
+  double beta = atan2((goal.y - current.y),(goal.x-current.y)); //angle between line joining start-end and x axis
+  double temp = ((current.heading +  3.14));
+  temp = (std::fmod(temp , 2*3.14)) - 3.14;
+  alpha = temp - beta; //angle between current heading and the line joining start-end
+  double euclideanDistance = sqrt(pow((goal.x - current.x),2) + pow((goal.y-current.y),2));
+  turningRadius = euclideanDistance / (2*sin(alpha));   //this outputs the turning radius
 }
-// double compute_velocity()
+
+void compute_steering_angle()
+{
+  steeringAngle = 0.7*sin(alpha)*mule.length;
+  // steeringAngle = atan(mule.length / turningRadius);
+}
+
+void compute_forward_velocity()  //added a variable velocity based on Bijo's suggestion
+{
+
+  // forwardVelocity = mule.maximumVelocity * (1 - atan(abs(steeringAngle))/(pi/2));  //this specifies the forward velocity at a given steering angle
+  forwardVelocity = 0.1;
+}
+
 };
 #endif
