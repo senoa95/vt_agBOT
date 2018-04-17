@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+CMAKE_SOURCE_DIR = /home/agbot/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+CMAKE_BINARY_DIR = /home/agbot/vt_agBOT/build
 
 # Utility rule file for joy_input_geneus.
 
@@ -63,10 +63,10 @@ joystick_input/CMakeFiles/joy_input_geneus.dir/build: joy_input_geneus
 .PHONY : joystick_input/CMakeFiles/joy_input_geneus.dir/build
 
 joystick_input/CMakeFiles/joy_input_geneus.dir/clean:
-	cd /home/senoa95/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_geneus.dir/cmake_clean.cmake
+	cd /home/agbot/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/joy_input_geneus.dir/cmake_clean.cmake
 .PHONY : joystick_input/CMakeFiles/joy_input_geneus.dir/clean
 
 joystick_input/CMakeFiles/joy_input_geneus.dir/depend:
-	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/joystick_input /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/joystick_input /home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agbot/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agbot/vt_agBOT/src /home/agbot/vt_agBOT/src/joystick_input /home/agbot/vt_agBOT/build /home/agbot/vt_agBOT/build/joystick_input /home/agbot/vt_agBOT/build/joystick_input/CMakeFiles/joy_input_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : joystick_input/CMakeFiles/joy_input_geneus.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/senoa95/vt_agBOT/src
+CMAKE_SOURCE_DIR = /home/agbot/vt_agBOT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/senoa95/vt_agBOT/build
+CMAKE_BINARY_DIR = /home/agbot/vt_agBOT/build
 
 # Utility rule file for move_base_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build: move_
 .PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
 
 joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clean:
-	cd /home/senoa95/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/move_base_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/agbot/vt_agBOT/build/joystick_input && $(CMAKE_COMMAND) -P CMakeFiles/move_base_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clean
 
 joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/depend:
-	cd /home/senoa95/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/senoa95/vt_agBOT/src /home/senoa95/vt_agBOT/src/joystick_input /home/senoa95/vt_agBOT/build /home/senoa95/vt_agBOT/build/joystick_input /home/senoa95/vt_agBOT/build/joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agbot/vt_agBOT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agbot/vt_agBOT/src /home/agbot/vt_agBOT/src/joystick_input /home/agbot/vt_agBOT/build /home/agbot/vt_agBOT/build/joystick_input /home/agbot/vt_agBOT/build/joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : joystick_input/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/depend
 

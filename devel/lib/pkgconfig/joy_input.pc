@@ -1,8 +1,8 @@
-prefix=/home/senoa95/vt_agBOT/devel
+prefix=/home/agbot/vt_agBOT/devel
 
 Name: joy_input
 Description: Description of joy_input
 Version: 0.0.0
-Cflags: -I/home/senoa95/vt_agBOT/devel/include
-Libs: -L/home/senoa95/vt_agBOT/devel/lib -ljoy_input
+Cflags: -I/home/agbot/vt_agBOT/devel/include
+Libs: -L/home/agbot/vt_agBOT/devel/lib -ljoy_input
 Requires: roscpp rospy move_base_msgs actionlib std_msgs message_runtime

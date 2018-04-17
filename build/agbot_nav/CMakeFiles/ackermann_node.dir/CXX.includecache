@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/senoa95/vt_agBOT/devel/include/joy_input/AckermannDrive.h
+/home/agbot/vt_agBOT/devel/include/joy_input/AckermannDrive.h
 string
 -
 vector
@@ -22,15 +22,15 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/senoa95/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp
+/home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp
 iostream
 -
 ros/ros.h
-/home/senoa95/vt_agBOT/src/agbot_nav/src/ros/ros.h
+/home/agbot/vt_agBOT/src/agbot_nav/src/ros/ros.h
 sstream
 -
 utilities_modified.h
-/home/senoa95/vt_agBOT/src/agbot_nav/src/utilities_modified.h
+/home/agbot/vt_agBOT/src/agbot_nav/src/utilities_modified.h
 joy_input/AckermannDrive.h
 -
 tf/transform_broadcaster.h
@@ -38,13 +38,13 @@ tf/transform_broadcaster.h
 angles/angles.h
 -
 sensor_msgs/Imu.h
-/home/senoa95/vt_agBOT/src/agbot_nav/src/sensor_msgs/Imu.h
+/home/agbot/vt_agBOT/src/agbot_nav/src/sensor_msgs/Imu.h
 geometry_msgs/Pose.h
-/home/senoa95/vt_agBOT/src/agbot_nav/src/geometry_msgs/Pose.h
+/home/agbot/vt_agBOT/src/agbot_nav/src/geometry_msgs/Pose.h
 math.h
-/home/senoa95/vt_agBOT/src/agbot_nav/src/math.h
+/home/agbot/vt_agBOT/src/agbot_nav/src/math.h
 
-/home/senoa95/vt_agBOT/src/agbot_nav/src/utilities_modified.h
+/home/agbot/vt_agBOT/src/agbot_nav/src/utilities_modified.h
 cmath
 -
 
