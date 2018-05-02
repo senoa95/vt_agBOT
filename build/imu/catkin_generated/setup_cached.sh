@@ -10,4 +10,4 @@
 export CMAKE_PREFIX_PATH="/home/agbot/vt_agBOT/devel/.private/imu:$CMAKE_PREFIX_PATH"
 export PWD="/home/agbot/vt_agBOT/build/imu"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/agbot/vt_agBOT/devel/.private/imu/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/agbot/vt_agBOT/src/imu:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/agbot/vt_agBOT/src/gps/src/imu:$ROS_PACKAGE_PATH"

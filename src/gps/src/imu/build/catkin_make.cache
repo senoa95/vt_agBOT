@@ -1,2 +1,0 @@
-
--DCATKIN_DEVEL_PREFIX=/home/agbot/vt_agBOT/src/gps/src/imu/devel -DCMAKE_INSTALL_PREFIX=/home/agbot/vt_agBOT/src/gps/src/imu/install -G Unix Makefiles

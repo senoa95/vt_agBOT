@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/agbot/vt_agBOT/src/imu
+# Source directory: /home/agbot/vt_agBOT/src/gps/src/imu
 # Build directory: /home/agbot/vt_agBOT/build/imu
 # 
 # This file includes the relevant testing commands required for 

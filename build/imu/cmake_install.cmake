@@ -1,4 +1,4 @@
-# Install script for directory: /home/agbot/vt_agBOT/src/imu
+# Install script for directory: /home/agbot/vt_agBOT/src/gps/src/imu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -126,7 +126,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu" TYPE FILE FILES "/home/agbot/vt_agBOT/src/imu/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu" TYPE FILE FILES "/home/agbot/vt_agBOT/src/gps/src/imu/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

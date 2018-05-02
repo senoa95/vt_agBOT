@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agbot/vt_agBOT/src/imu
+CMAKE_SOURCE_DIR = /home/agbot/vt_agBOT/src/gps/src/imu
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agbot/vt_agBOT/build/imu
@@ -135,6 +135,6 @@ gtest/CMakeFiles/gmock.dir/clean:
 .PHONY : gtest/CMakeFiles/gmock.dir/clean
 
 gtest/CMakeFiles/gmock.dir/depend:
-	cd /home/agbot/vt_agBOT/build/imu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agbot/vt_agBOT/src/imu /usr/src/gmock /home/agbot/vt_agBOT/build/imu /home/agbot/vt_agBOT/build/imu/gtest /home/agbot/vt_agBOT/build/imu/gtest/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agbot/vt_agBOT/build/imu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agbot/vt_agBOT/src/gps/src/imu /usr/src/gmock /home/agbot/vt_agBOT/build/imu /home/agbot/vt_agBOT/build/imu/gtest /home/agbot/vt_agBOT/build/imu/gtest/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/CMakeFiles/gmock.dir/depend
 

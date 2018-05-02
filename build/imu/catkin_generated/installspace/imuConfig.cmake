@@ -67,7 +67,7 @@ set(imu_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(imu_SOURCE_PREFIX /home/agbot/vt_agBOT/src/imu)
+  set(imu_SOURCE_PREFIX /home/agbot/vt_agBOT/src/gps/src/imu)
   set(imu_DEVEL_PREFIX /home/agbot/vt_agBOT/devel/.private/imu)
   set(imu_INSTALL_PREFIX "")
   set(imu_PREFIX ${imu_DEVEL_PREFIX})
