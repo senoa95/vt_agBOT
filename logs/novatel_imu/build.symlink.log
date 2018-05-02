@@ -1,0 +1,3 @@
+Symlinking /home/agbot/vt_agBOT/devel/lib/pkgconfig/novatel_imu.pc
+Symlinking /home/agbot/vt_agBOT/devel/share/novatel_imu/cmake/novatel_imuConfig.cmake
+Symlinking /home/agbot/vt_agBOT/devel/share/novatel_imu/cmake/novatel_imuConfig-version.cmake

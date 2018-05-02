@@ -1,0 +1,1 @@
+/home/agbot/vt_agBOT/devel/.private/novatel_imu/lib/pkgconfig/novatel_imu.pc

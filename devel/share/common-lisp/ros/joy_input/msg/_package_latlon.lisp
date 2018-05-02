@@ -1,8 +1,1 @@
-(cl:in-package joy_input-msg)
-(cl:export '(LAT-VAL
-          LAT
-          LONG-VAL
-          LONG
-          HEADER-VAL
-          HEADER
-))
+/home/agbot/vt_agBOT/devel/.private/joy_input/share/common-lisp/ros/joy_input/msg/_package_latlon.lisp

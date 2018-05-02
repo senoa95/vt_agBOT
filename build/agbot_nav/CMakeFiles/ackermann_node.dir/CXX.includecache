@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/agbot/vt_agBOT/devel/include/joy_input/AckermannDrive.h
+/home/agbot/vt_agBOT/devel/.private/joy_input/include/joy_input/AckermannDrive.h
 string
 -
 vector

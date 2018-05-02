@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/agbot/vt_agBOT/devel/.private/joy_input/share/gennodejs/ros/joy_input/_index.js

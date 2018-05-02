@@ -21,6 +21,8 @@ ser = serial.Serial('/dev/ttyUSB0',115200,rtscts=True,dsrdtr=True)
 
 #SETTING UP Novatel to take RTCM correction
 ser.write('INTERFACEMODE USB1 RTCM NOVATEL ON\r\n')
+ser.write('INSCOMMAND ENABLE\r')
+ser.write('LOG USB1 INSPVA ONTIME \r\n')
 
 while True:
     #Recieve RTCM and write RTCM data to serial

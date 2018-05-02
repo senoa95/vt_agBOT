@@ -1,0 +1,5 @@
+joy_translate
+/home/agbot/vt_agBOT/devel/.private/joy_translate/lib/pkgconfig/joy_translate.pc /home/agbot/vt_agBOT/devel/lib/pkgconfig/joy_translate.pc
+/home/agbot/vt_agBOT/devel/.private/joy_translate/lib/python2.7/dist-packages/<package_name>​/__init__.py /home/agbot/vt_agBOT/devel/lib/python2.7/dist-packages/<package_name>​/__init__.py
+/home/agbot/vt_agBOT/devel/.private/joy_translate/share/joy_translate/cmake/joy_translateConfig-version.cmake /home/agbot/vt_agBOT/devel/share/joy_translate/cmake/joy_translateConfig-version.cmake
+/home/agbot/vt_agBOT/devel/.private/joy_translate/share/joy_translate/cmake/joy_translateConfig.cmake /home/agbot/vt_agBOT/devel/share/joy_translate/cmake/joy_translateConfig.cmake

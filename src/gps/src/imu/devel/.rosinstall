@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/agbot/vt_agBOT/src/gps/src/imu/devel/setup.sh

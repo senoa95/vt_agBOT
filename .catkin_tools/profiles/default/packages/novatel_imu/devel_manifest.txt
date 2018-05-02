@@ -1,0 +1,4 @@
+gps/src/novatel_imu
+/home/agbot/vt_agBOT/devel/.private/novatel_imu/lib/pkgconfig/novatel_imu.pc /home/agbot/vt_agBOT/devel/lib/pkgconfig/novatel_imu.pc
+/home/agbot/vt_agBOT/devel/.private/novatel_imu/share/novatel_imu/cmake/novatel_imuConfig.cmake /home/agbot/vt_agBOT/devel/share/novatel_imu/cmake/novatel_imuConfig.cmake
+/home/agbot/vt_agBOT/devel/.private/novatel_imu/share/novatel_imu/cmake/novatel_imuConfig-version.cmake /home/agbot/vt_agBOT/devel/share/novatel_imu/cmake/novatel_imuConfig-version.cmake

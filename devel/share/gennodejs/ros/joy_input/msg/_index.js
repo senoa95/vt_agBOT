@@ -1,10 +1,1 @@
-
-"use strict";
-
-let latlon = require('./latlon.js');
-let AckermannDrive = require('./AckermannDrive.js');
-
-module.exports = {
-  latlon: latlon,
-  AckermannDrive: AckermannDrive,
-};
+/home/agbot/vt_agBOT/devel/.private/joy_input/share/gennodejs/ros/joy_input/msg/_index.js

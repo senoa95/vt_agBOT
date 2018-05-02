@@ -23,8 +23,8 @@ echo_and_run mkdir -p "$DESTDIR/home/agbot/vt_agBOT/install/lib/python2.7/dist-p
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/agbot/vt_agBOT/install/lib/python2.7/dist-packages:/home/agbot/vt_agBOT/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/agbot/vt_agBOT/build" \
+    PYTHONPATH="/home/agbot/vt_agBOT/install/lib/python2.7/dist-packages:/home/agbot/vt_agBOT/build/joy_translate/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/agbot/vt_agBOT/build/joy_translate" \
     "/usr/bin/python" \
     "/home/agbot/vt_agBOT/src/joy_translate/setup.py" \
     build --build-base "/home/agbot/vt_agBOT/build/joy_translate" \

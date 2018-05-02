@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/kinetic/lib")
+set(ORDERED_PATHS "/home/agbot/vt_agBOT/devel/.private/joy_input/lib;/opt/ros/kinetic/lib")

@@ -1,8 +1,1 @@
-prefix=/home/agbot/vt_agBOT/devel
-
-Name: rtk
-Description: Description of rtk
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/agbot/vt_agBOT/devel/lib 
-Requires: 
+/home/agbot/vt_agBOT/devel/.private/rtk/lib/pkgconfig/rtk.pc
