@@ -1,6 +1,0 @@
-set(joy_translate_SETUP_PY_VERSION "0.0.0")
-set(joy_translate_SETUP_PY_SCRIPTS "")
-set(joy_translate_SETUP_PY_PACKAGES "<package_name>​")
-set(joy_translate_SETUP_PY_PACKAGE_DIRS "include/<package_name>​")
-set(joy_translate_SETUP_PY_MODULES "")
-set(joy_translate_SETUP_PY_MODULE_DIRS "")
