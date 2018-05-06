@@ -1,5 +1,3 @@
-  GNU nano 2.5.3                                                                                              File: read_imu.py
-
 #!/usr/bin/env python
 
 import rospy
@@ -18,11 +16,7 @@ def read_imu():
     prev_pitch = 0
     prev_yaw = 0
     orientation = Point32()
-<<<<<<< HEAD
     ser.flush()
-=======
-
->>>>>>> a8e88ced26ebd13645c12341e15fcd9c80e186dd
     imu_data_raw = ser.readline()
     imu_data = imu_data_raw.split(',')
     if len(imu_data) > 19:
@@ -30,15 +24,11 @@ def read_imu():
         pitch = float(imu_data[18])
         yaw = float(imu_data[19])
 
-<<<<<<< HEAD
 
-=======
->>>>>>> a8e88ced26ebd13645c12341e15fcd9c80e186dd
     imu_pub = rospy.Publisher('/novatel_imu', Point32, queue_size=10)
     rospy.init_node ('novatel_imu', anonymous=True)
     rate = rospy.Rate(10)
     while not rospy.is_shutdown():
-<<<<<<< HEAD
         ser.flush()
         imu_data_raw = ser.readline()
         imu_data = imu_data_raw.split(',')
@@ -54,14 +44,6 @@ def read_imu():
                ser.flush()
            if abs(curr_yaw - prev_yaw) > 20:
                ser.flush()
-=======
-        imu_data_raw = ser.readline()
-        imu_data = imu_data_raw.split(',')
-        if len(imu_data) > 19:
-           roll = float(imu_data[17])
-           pitch = float(imu_data[18])
-           yaw = float(imu_data[19])
->>>>>>> a8e88ced26ebd13645c12341e15fcd9c80e186dd
 
         orientation.x = roll
         orientation.y = pitch
