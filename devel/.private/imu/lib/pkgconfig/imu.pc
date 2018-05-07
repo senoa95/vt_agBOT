@@ -1,8 +1,0 @@
-prefix=/home/agbot/vt_agBOT/devel/.private/imu
-
-Name: imu
-Description: Description of imu
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/agbot/vt_agBOT/devel/.private/imu/lib 
-Requires: 

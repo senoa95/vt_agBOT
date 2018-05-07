@@ -1,1 +1,0 @@
-/home/agbot/vt_agBOT/devel/.private/imu/lib/pkgconfig/imu.pc

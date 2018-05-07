@@ -1,1 +1,0 @@
-/home/agbot/vt_agBOT/devel/.private/novatel_gps_msgs/include/novatel_gps_msgs/Gpgsa.h

@@ -1,1 +1,0 @@
-/home/agbot/vt_agBOT/devel/.private/joy_translate/share/joy_translate/cmake/joy_translateConfig-version.cmake

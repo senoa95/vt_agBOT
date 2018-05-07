@@ -1,6 +1,0 @@
-Symlinking /home/agbot/vt_agBOT/devel/lib/libnovatel_gps_driver.so
-Symlinking /home/agbot/vt_agBOT/devel/lib/libnovatel_gps_driver_nodelets.so
-Symlinking /home/agbot/vt_agBOT/devel/lib/pkgconfig/novatel_gps_driver.pc
-Symlinking /home/agbot/vt_agBOT/devel/lib/novatel_gps_driver/novatel_gps_node
-Symlinking /home/agbot/vt_agBOT/devel/share/novatel_gps_driver/cmake/novatel_gps_driverConfig-version.cmake
-Symlinking /home/agbot/vt_agBOT/devel/share/novatel_gps_driver/cmake/novatel_gps_driverConfig.cmake

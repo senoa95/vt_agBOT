@@ -1,8 +1,0 @@
-prefix=/home/agbot/vt_agBOT/devel/.private/joy_translate
-
-Name: joy_translate
-Description: Description of joy_translate
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/agbot/vt_agBOT/devel/.private/joy_translate/lib 
-Requires: 

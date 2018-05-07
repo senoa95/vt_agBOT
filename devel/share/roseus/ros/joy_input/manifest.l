@@ -1,1 +1,0 @@
-/home/agbot/vt_agBOT/devel/.private/joy_input/share/roseus/ros/joy_input/manifest.l

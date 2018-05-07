@@ -1,1 +1,0 @@
-/home/agbot/vt_agBOT/devel/.private/novatel_gps_msgs/share/roseus/ros/novatel_gps_msgs/msg/Insstdev.l

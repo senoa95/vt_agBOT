@@ -1,1 +1,0 @@
-/home/agbot/vt_agBOT/devel/.private/joy_input/lib/pkgconfig/joy_input.pc

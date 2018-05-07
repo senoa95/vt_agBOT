@@ -1,4 +1,0 @@
-In file included from [01m[K/home/agbot/vt_agBOT/src/agbot_nav/src/pp_implementation_modified.cpp:5:0[m[K:
-[01m[K/home/agbot/vt_agBOT/src/agbot_nav/src/utilities_modified.h:54:42:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
-   AckermannVehicle mule = (1, 45*pi/180,2);
-[01;32m[K                                          ^[m[K

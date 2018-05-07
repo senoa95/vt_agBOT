@@ -1,1 +1,0 @@
-/home/agbot/vt_agBOT/devel/.private/novatel_gps_driver/lib/pkgconfig/novatel_gps_driver.pc

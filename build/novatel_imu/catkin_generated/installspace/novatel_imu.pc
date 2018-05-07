@@ -1,8 +1,0 @@
-prefix=/home/agbot/vt_agBOT/install
-
-Name: novatel_imu
-Description: Description of novatel_imu
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/agbot/vt_agBOT/install/lib 
-Requires: 

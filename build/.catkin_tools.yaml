@@ -1,6 +1,0 @@
-devel_space: /home/agbot/vt_agBOT/devel
-install: false
-install_space: /home/agbot/vt_agBOT/install
-profile: default
-source_space: /home/agbot/vt_agBOT/src
-workspace: /home/agbot/vt_agBOT

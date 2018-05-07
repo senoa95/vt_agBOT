@@ -1,8 +1,0 @@
-prefix=/home/agbot/vt_agBOT/install
-
-Name: novatel_gps_msgs
-Description: Description of novatel_gps_msgs
-Version: 3.4.0
-Cflags: -I/home/agbot/vt_agBOT/install/include
-Libs: -L/home/agbot/vt_agBOT/install/lib 
-Requires: message_runtime std_msgs
