@@ -4,6 +4,7 @@ import rospy
 import serial
 import time
 from geometry_msgs.msg import Point32
+import math
 # Open Serial connection
 ser = serial.Serial('/dev/ttyUSB2',115200,rtscts=True,dsrdtr=True)
 
@@ -26,15 +27,6 @@ def read_imu():
     pitch = 0
     yaw = 0
 
-    ser.flush()
-    imu_data_raw = ser.readline()
-    imu_data = imu_data_raw.split(',')
-
-    if len(imu_data) > 21:
-
-        roll = float(imu_data[17])
-        pitch = float(imu_data[18])
-        yaw = float(imu_data[19])
 
     imu_pub = rospy.Publisher('/novatel_imu', Point32, queue_size=10)
     rospy.init_node ('novatel_imu', anonymous=True)
@@ -45,26 +37,29 @@ def read_imu():
 
         if ser.in_waiting:
 
-            ser.flush()
+            # ser.flush()
 
             imu_data_raw = ser.readline()
             imu_data = imu_data_raw.split(',')
-            prev_roll = curr_roll
-            prev_pitch = curr_pitch
-            prev_yaw = curr_yaw
 
-            if len(imu_data) > 20:
+            if len(imu_data) = 21:
 
                curr_roll = float(imu_data[17])
                curr_pitch = float(imu_data[18])
                curr_yaw = float(imu_data[19])
 
+            curr_yaw = curr_yaw * math.pi / 180
+
+            if curr_yaw > math.pi:
+                curr_yaw = curr_yaw - 2*math.pi
+
+
             orientation.x = curr_roll
             orientation.y = curr_pitch
             orientation.z = curr_yaw
 
-            rospy.loginfo(orientation)
-            imu_pub.publish(orientation)
+            rospy.loginfo(orientation.z)
+            imu_pub.publish(orientation.z)
 
 
 if __name__ == '__main__':
