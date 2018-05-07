@@ -1,0 +1,5 @@
+gps_imu_translate
+/home/agbot/vt_agBOT/devel/.private/gps_imu_translate/lib/pkgconfig/gps_imu_translate.pc /home/agbot/vt_agBOT/devel/lib/pkgconfig/gps_imu_translate.pc
+/home/agbot/vt_agBOT/devel/.private/gps_imu_translate/lib/python2.7/dist-packages/gps_imu_translate/__init__.py /home/agbot/vt_agBOT/devel/lib/python2.7/dist-packages/gps_imu_translate/__init__.py
+/home/agbot/vt_agBOT/devel/.private/gps_imu_translate/share/gps_imu_translate/cmake/gps_imu_translateConfig-version.cmake /home/agbot/vt_agBOT/devel/share/gps_imu_translate/cmake/gps_imu_translateConfig-version.cmake
+/home/agbot/vt_agBOT/devel/.private/gps_imu_translate/share/gps_imu_translate/cmake/gps_imu_translateConfig.cmake /home/agbot/vt_agBOT/devel/share/gps_imu_translate/cmake/gps_imu_translateConfig.cmake
