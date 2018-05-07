@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/agbot/vt_agBOT/devel/.private/agbot_nav:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/agbot/vt_agBOT/devel/.private/agbot_nav/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/agbot/vt_agBOT/devel/.private/agbot_nav/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/agbot/vt_agBOT/build/agbot_nav"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/agbot/vt_agBOT/devel/.private/agbot_nav/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/agbot/vt_agBOT/src/agbot_nav:$ROS_PACKAGE_PATH"
