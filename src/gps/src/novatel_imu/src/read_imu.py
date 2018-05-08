@@ -49,18 +49,10 @@ def read_imu():
                curr_pitch = float(imu_data[18])
                curr_yaw = float(imu_data[19])
 
-<<<<<<< HEAD
                curr_yaw  = curr_yaw * 2*math.pi / 360
 
                if curr_yaw > math.pi:
                    curr_yaw = curr_yaw - 2*math.pi
-=======
-            curr_yaw = curr_yaw * math.pi / 180
-
-            if curr_yaw > math.pi:
-                curr_yaw = curr_yaw - 2*math.pi
->>>>>>> 3b260375582b790d45cd239d1c194cc47e799b44
-
 
             orientation.x = curr_roll
             orientation.y = curr_pitch
