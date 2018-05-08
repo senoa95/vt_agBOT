@@ -1,0 +1,4 @@
+ackermann_vehicle-1/ackermann_vehicle_description
+/home/agbot/vt_agBOT/devel/.private/ackermann_vehicle_description/lib/pkgconfig/ackermann_vehicle_description.pc /home/agbot/vt_agBOT/devel/lib/pkgconfig/ackermann_vehicle_description.pc
+/home/agbot/vt_agBOT/devel/.private/ackermann_vehicle_description/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig.cmake /home/agbot/vt_agBOT/devel/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig.cmake
+/home/agbot/vt_agBOT/devel/.private/ackermann_vehicle_description/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig-version.cmake /home/agbot/vt_agBOT/devel/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig-version.cmake
