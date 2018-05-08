@@ -3,6 +3,7 @@
 import rospy
 import serial
 import time
+import math
 from geometry_msgs.msg import Point32
 # Open Serial connection
 ser = serial.Serial('/dev/ttyUSB2',115200,rtscts=True,dsrdtr=True)
@@ -58,6 +59,12 @@ def read_imu():
                curr_roll = float(imu_data[17])
                curr_pitch = float(imu_data[18])
                curr_yaw = float(imu_data[19])
+
+               curr_yaw  = curr_yaw * 2*math.pi / 360
+
+               if curr_yaw > math.pi:
+                   curr_yaw = curr_yaw - 2*math.pi
+
 
             orientation.x = curr_roll
             orientation.y = curr_pitch
